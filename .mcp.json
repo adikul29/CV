@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blend-ai": {
+      "type": "http",
+      "url": "https://mcp.blend-ai.com/mcp"
+    }
+  }
+}
