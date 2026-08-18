@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__test_mcp_2__update_campaign|mcp__meta_ads_official_mcp__ads_activate_entity|mcp__meta_ads_official_mcp__ads_update_entity",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/check-campaign-audit-gate.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

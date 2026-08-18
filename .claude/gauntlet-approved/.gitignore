@@ -1,0 +1,4 @@
+# Approval records are per-run, environment-specific audit state — not source.
+# Keep the directory tracked, ignore the generated approval files.
+*.json
+!.gitignore
