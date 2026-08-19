@@ -1,0 +1,6703 @@
+{
+  "generatedAt": "2026-08-19T00:00:00+05:30",
+  "accounts": {
+    "1002719109265256": {
+      "id": "1002719109265256",
+      "name": "SBM 2",
+      "business": "Slow Burn Method",
+      "currency": "INR",
+      "campaigns": [
+        {
+          "id": "52846593140727",
+          "name": "SBM_PRO_WEB-TRAFFIC_10-08-26",
+          "status": "ACTIVE",
+          "objective": "OUTCOME_TRAFFIC",
+          "spend": 8058.58,
+          "impressions": 159944,
+          "reach": 86556,
+          "clicks": 8415,
+          "ctr": 5.26,
+          "cpc": 0.96,
+          "cpm": 50.38,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:omni_landing_page_view"
+        },
+        {
+          "id": "52846507556927",
+          "name": "SBM_RTG_CTWA_08-08-26",
+          "status": "ACTIVE",
+          "objective": "OUTCOME_ENGAGEMENT",
+          "spend": 4325.7,
+          "impressions": 9997,
+          "reach": 5572,
+          "clicks": 179,
+          "ctr": 1.79,
+          "cpc": 24.17,
+          "cpm": 432.7,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:onsite_conversion.messaging_conversation_started_7d"
+        },
+        {
+          "id": "52848159560127",
+          "name": "SBM_PRO_QUIZ_LEAD_GEN_13-08-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_lead"
+        }
+      ],
+      "adsets": [
+        {
+          "id": "52846593140927",
+          "name": "SBM_WEB-TRAFFIC_HEALTH_AND_FITNESS",
+          "campaignId": "52846593140727",
+          "status": "ACTIVE",
+          "optimizationGoal": "LANDING_PAGE_VIEWS",
+          "spend": 8058.58,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 159945,
+          "clicks": 8415,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Bangalore",
+              "Bhopal",
+              "Mumbai",
+              "Pune"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [
+              "WEBSITE_VISISTORS-180_DAYS",
+              "COACH_RAJ_INSTA_ENGAGAGERS-365-DAYS"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram",
+              "audience_network",
+              "messenger",
+              "whatsapp",
+              "threads"
+            ]
+          }
+        },
+        {
+          "id": "52846507557127",
+          "name": "SBM_RTG_CTWA",
+          "campaignId": "52846507556927",
+          "status": "ACTIVE",
+          "optimizationGoal": "CONVERSATIONS",
+          "spend": 4325.7,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 9997,
+          "clicks": 179,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": {
+              "0": "IN"
+            },
+            "customAudiences": [
+              "WEBSITE_VISISTORS-180_DAYS",
+              "COACH_RAJ_INSTA_ENGAGAGERS-365-DAYS"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "52848159560327",
+          "name": "SBM_PRO_QUIZ",
+          "campaignId": "52848159560127",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Bangalore",
+              "Mumbai"
+            ],
+            "regions": [],
+            "countries": null,
+            "customAudiences": [
+              "WEBSITE_VISISTORS-180_DAYS"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        }
+      ],
+      "ads": [
+        {
+          "id": "52846507560727",
+          "name": "CTWA_RTG_AD-1",
+          "adsetId": "52846507557127",
+          "campaignId": "52846507556927",
+          "status": "ACTIVE",
+          "creativeId": "2579340639171903",
+          "spend": 81.22,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 116,
+          "clicks": 8,
+          "ctr": 6.9,
+          "cpc": 10.15
+        },
+        {
+          "id": "52846608046327",
+          "name": "WEB-TRAFFIC_PRO_AD-3",
+          "adsetId": "52846593140927",
+          "campaignId": "52846593140727",
+          "status": "ACTIVE",
+          "creativeId": "1044262835169967",
+          "spend": 875.85,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 17575,
+          "clicks": 897,
+          "ctr": 5.1,
+          "cpc": 0.98
+        },
+        {
+          "id": "52846593140527",
+          "name": "WEB-TRAFFIC_PRO_AD-1",
+          "adsetId": "52846593140927",
+          "campaignId": "52846593140727",
+          "status": "ACTIVE",
+          "creativeId": "908645278991765",
+          "spend": 7094.38,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 139497,
+          "clicks": 7409,
+          "ctr": 5.31,
+          "cpc": 0.96
+        },
+        {
+          "id": "52846609637127",
+          "name": "CTWA_RTG_AD-3",
+          "adsetId": "52846507557127",
+          "campaignId": "52846507556927",
+          "status": "ACTIVE",
+          "creativeId": "1009956858517453",
+          "spend": 4131.02,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 9617,
+          "clicks": 165,
+          "ctr": 1.72,
+          "cpc": 34.98
+        },
+        {
+          "id": "52846607100127",
+          "name": "WEB-TRAFFIC_PRO_AD-2",
+          "adsetId": "52846593140927",
+          "campaignId": "52846593140727",
+          "status": "ACTIVE",
+          "creativeId": "1358428469734394",
+          "spend": 105.35,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 2872,
+          "clicks": 109,
+          "ctr": 3.8,
+          "cpc": 0.97
+        },
+        {
+          "id": "52848159559927",
+          "name": "AD-1",
+          "adsetId": "52848159560327",
+          "campaignId": "52848159560127",
+          "status": "ACTIVE",
+          "creativeId": "2292309744856494",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "52848165546527",
+          "name": "AD-2",
+          "adsetId": "52848159560327",
+          "campaignId": "52848159560127",
+          "status": "ACTIVE",
+          "creativeId": "1080617637806015",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "52846548960527",
+          "name": "CTWA_RTG_AD-2",
+          "adsetId": "52846507557127",
+          "campaignId": "52846507556927",
+          "status": "PAUSED",
+          "creativeId": "1099493619307204",
+          "spend": 123.46,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 264,
+          "clicks": 6,
+          "ctr": 2.27,
+          "cpc": 20.58
+        }
+      ],
+      "ageBreakdown": [
+        {
+          "age": "18-24",
+          "spend": 965.43,
+          "impressions": 3250,
+          "reach": 2409,
+          "clicks": 84,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "age": "25-34",
+          "spend": 2115.57,
+          "impressions": 42366,
+          "reach": 20984,
+          "clicks": 1708,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "age": "35-44",
+          "spend": 2279.89,
+          "impressions": 30178,
+          "reach": 15671,
+          "clicks": 1345,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "age": "45-54",
+          "spend": 2745.09,
+          "impressions": 31238,
+          "reach": 17367,
+          "clicks": 1548,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "age": "55-64",
+          "spend": 2450.6,
+          "impressions": 31579,
+          "reach": 17811,
+          "clicks": 1786,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "age": "65+",
+          "spend": 2441.51,
+          "impressions": 31329,
+          "reach": 18704,
+          "clicks": 2122,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "age": "Unknown",
+          "spend": 0.19,
+          "impressions": 1,
+          "reach": 1,
+          "clicks": 1,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        }
+      ],
+      "genderBreakdown": [
+        {
+          "gender": "female",
+          "spend": 6715.7,
+          "impressions": 70143,
+          "reach": 37532,
+          "clicks": 3737,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "gender": "male",
+          "spend": 5605.58,
+          "impressions": 99324,
+          "reach": 54569,
+          "clicks": 4837,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        },
+        {
+          "gender": "unknown",
+          "spend": 63.0,
+          "impressions": 474,
+          "reach": 232,
+          "clicks": 20,
+          "leads": 0,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        }
+      ],
+      "placements": [
+        {
+          "platform_position": "an_classic",
+          "spend": 1076.88,
+          "impressions": 34009,
+          "reach": 12628,
+          "clicks": 1722
+        },
+        {
+          "platform_position": "facebook_notification",
+          "spend": 42.32,
+          "impressions": 382,
+          "reach": 367,
+          "clicks": 28
+        },
+        {
+          "platform_position": "facebook_profile_feed",
+          "spend": 8.04,
+          "impressions": 379,
+          "reach": 348,
+          "clicks": 2
+        },
+        {
+          "platform_position": "facebook_reels",
+          "spend": 935.34,
+          "impressions": 14715,
+          "reach": 8832,
+          "clicks": 359
+        },
+        {
+          "platform_position": "facebook_reels_overlay",
+          "spend": 52.36,
+          "impressions": 4370,
+          "reach": 3672,
+          "clicks": 47
+        },
+        {
+          "platform_position": "facebook_stories",
+          "spend": 516.53,
+          "impressions": 3121,
+          "reach": 2610,
+          "clicks": 379
+        },
+        {
+          "platform_position": "feed",
+          "spend": 6364.43,
+          "impressions": 52197,
+          "reach": 37038,
+          "clicks": 3505
+        },
+        {
+          "platform_position": "instagram_explore_grid_home",
+          "spend": 1.14,
+          "impressions": 337,
+          "reach": 330,
+          "clicks": 3
+        },
+        {
+          "platform_position": "instagram_reels",
+          "spend": 1440.46,
+          "impressions": 24678,
+          "reach": 14643,
+          "clicks": 247
+        },
+        {
+          "platform_position": "instagram_search",
+          "spend": 0.02,
+          "impressions": 10,
+          "reach": 10,
+          "clicks": 0
+        },
+        {
+          "platform_position": "instagram_stories",
+          "spend": 498.94,
+          "impressions": 3063,
+          "reach": 2282,
+          "clicks": 96
+        },
+        {
+          "platform_position": "instream_video",
+          "spend": 590.95,
+          "impressions": 8609,
+          "reach": 8136,
+          "clicks": 602
+        },
+        {
+          "platform_position": "marketplace",
+          "spend": 17.49,
+          "impressions": 1358,
+          "reach": 1001,
+          "clicks": 12
+        },
+        {
+          "platform_position": "messenger_stories",
+          "spend": 0,
+          "impressions": 1,
+          "reach": 1,
+          "clicks": 0
+        },
+        {
+          "platform_position": "rewarded_video",
+          "spend": 897.7,
+          "impressions": 22052,
+          "reach": 8236,
+          "clicks": 1570
+        },
+        {
+          "platform_position": "search",
+          "spend": 1.31,
+          "impressions": 24,
+          "reach": 19,
+          "clicks": 1
+        },
+        {
+          "platform_position": "status",
+          "spend": 2.17,
+          "impressions": 633,
+          "reach": 633,
+          "clicks": 7
+        },
+        {
+          "platform_position": "threads_feed",
+          "spend": 0,
+          "impressions": 3,
+          "reach": 3,
+          "clicks": 0
+        },
+        {
+          "platform_position": "unknown",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 14
+        }
+      ],
+      "devices": [
+        {
+          "device_platform": "desktop",
+          "spend": 0.39,
+          "impressions": 9,
+          "reach": 8,
+          "clicks": 1
+        },
+        {
+          "device_platform": "mobile_app",
+          "spend": 12379.39,
+          "impressions": 169925,
+          "reach": 92270,
+          "clicks": 8579
+        },
+        {
+          "device_platform": "mobile_web",
+          "spend": 4.82,
+          "impressions": 7,
+          "reach": 7,
+          "clicks": 0
+        },
+        {
+          "device_platform": "unknown",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 14
+        }
+      ]
+    },
+    "1204405088105936": {
+      "id": "1204405088105936",
+      "name": "Slow burn Method Meta",
+      "business": "Slow Burn Method",
+      "currency": "INR",
+      "campaigns": [
+        {
+          "id": "120249512523680453",
+          "name": "SBM_LAL-1%_3-MONTHS_PROGRAM_SALES_18-08-26",
+          "status": "ACTIVE",
+          "objective": "OUTCOME_SALES",
+          "spend": 1131.11,
+          "impressions": 2508,
+          "reach": 2329,
+          "clicks": 23,
+          "ctr": 0.92,
+          "cpc": 49.18,
+          "cpm": 451.0,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 1,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120249025270630453",
+          "name": "SBM_RTG_3-MONTHS_PROGRAM_SALES_28-07-26",
+          "status": "ACTIVE",
+          "objective": "OUTCOME_SALES",
+          "spend": 110915.69,
+          "impressions": 81447,
+          "reach": 32737,
+          "clicks": 1772,
+          "ctr": 2.18,
+          "cpc": 62.59,
+          "cpm": 1361.59,
+          "leads": 11,
+          "costPerLead": 10074.15,
+          "initiatedCheckouts": 99,
+          "purchaseValue": 256880.1,
+          "purchases": 45,
+          "roas": 2.318,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120249024935760453",
+          "name": "SBM_LAL-1%_3-MONTHS_PROGRAM_SALES_28-07-26",
+          "status": "ACTIVE",
+          "objective": "OUTCOME_SALES",
+          "spend": 105915.69,
+          "impressions": 219180,
+          "reach": 100644,
+          "clicks": 3766,
+          "ctr": 1.72,
+          "cpc": 28.1,
+          "cpm": 483.78,
+          "leads": 17,
+          "costPerLead": 6224.45,
+          "initiatedCheckouts": 105,
+          "purchaseValue": 239111.74,
+          "purchases": 48,
+          "roas": 2.26,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120248845560530453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_LAL_20-07-26 Old_Ad2-3-6",
+          "status": "ACTIVE",
+          "objective": "OUTCOME_SALES",
+          "spend": 142433.9,
+          "impressions": 169914,
+          "reach": 28947,
+          "clicks": 2111,
+          "ctr": 1.24,
+          "cpc": 67.47,
+          "cpm": 838.37,
+          "leads": 18,
+          "costPerLead": 7912.99,
+          "initiatedCheckouts": 136,
+          "purchaseValue": 346186.02,
+          "purchases": 64,
+          "roas": 2.431,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120249393739910453",
+          "name": "SBM_RTG_3-MONTHS_PROGRAM_SALES_13-08-26(SAND_CLOCK)",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 5864.8,
+          "impressions": 7834,
+          "reach": 3820,
+          "clicks": 86,
+          "ctr": 1.1,
+          "cpc": 68.2,
+          "cpm": 754.39,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 9,
+          "purchaseValue": 39615.34,
+          "purchases": 9,
+          "roas": 5.05,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120249270966260453",
+          "name": "SBM_PRO_CTWA_08-08-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_ENGAGEMENT",
+          "spend": 1076.99,
+          "impressions": 5292,
+          "reach": 4124,
+          "clicks": 105,
+          "ctr": 1.98,
+          "cpc": 10.26,
+          "cpm": 203.51,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:onsite_conversion.messaging_conversation_started_7d"
+        },
+        {
+          "id": "120249027788820453",
+          "name": "SBM_PRO_1&3-MONTHS_PROGRAM_SALES_28-07-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 44703.7,
+          "impressions": 869765,
+          "reach": 568089,
+          "clicks": 21388,
+          "ctr": 2.46,
+          "cpc": 2.09,
+          "cpm": 51.4,
+          "leads": 1,
+          "costPerLead": 44703.7,
+          "initiatedCheckouts": 8,
+          "purchaseValue": 4602.0,
+          "purchases": 1,
+          "roas": 0.103,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120249020248270453",
+          "name": "SBM_PRO_3-MONTHS_PROGRAM_SALES_28-07-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 29352.46,
+          "impressions": 302596,
+          "reach": 219313,
+          "clicks": 10415,
+          "ctr": 3.44,
+          "cpc": 2.82,
+          "cpm": 97.0,
+          "leads": 1,
+          "costPerLead": 29352.46,
+          "initiatedCheckouts": 5,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120248512150660453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_RTG_08-07-26 Old_Ad2",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 49954.38,
+          "impressions": 59372,
+          "reach": 17211,
+          "clicks": 837,
+          "ctr": 1.41,
+          "cpc": 59.68,
+          "cpm": 841.38,
+          "leads": 6,
+          "costPerLead": 8325.73,
+          "initiatedCheckouts": 26,
+          "purchaseValue": 99376.0,
+          "purchases": 8,
+          "roas": 0.666,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120248467356340453",
+          "name": "SBM_REGISTER_PAGE_PROGRAM_SALES_RTG_05-07-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120248401655440453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_PRO_05-07-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120248401049060453",
+          "name": "SBM_1&3_MONTHS_PROGRAM_SALES_RTG_05-07-26 Old_Ad1",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 53591.52,
+          "impressions": 57529,
+          "reach": 20674,
+          "clicks": 888,
+          "ctr": 1.54,
+          "cpc": 60.35,
+          "cpm": 931.56,
+          "leads": 10,
+          "costPerLead": 5359.15,
+          "initiatedCheckouts": 26,
+          "purchaseValue": 46032.0,
+          "purchases": 9,
+          "roas": 0.859,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_purchase"
+        },
+        {
+          "id": "120247755385730453",
+          "name": "SBM_WEBINAR_INST_RTG_23-06-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 15805.06,
+          "impressions": 62355,
+          "reach": 43153,
+          "clicks": 927,
+          "ctr": 1.49,
+          "cpc": 17.05,
+          "cpm": 253.47,
+          "leads": 187,
+          "costPerLead": 84.52,
+          "initiatedCheckouts": 12,
+          "purchaseValue": 4602.0,
+          "purchases": 0,
+          "roas": 0.291,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120247754894940453",
+          "name": "SBM_WEBINAR_WEB_RTG_23-06-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 43999.46,
+          "impressions": 192200,
+          "reach": 93606,
+          "clicks": 23414,
+          "ctr": 12.18,
+          "cpc": 1.88,
+          "cpm": 228.93,
+          "leads": 1908,
+          "costPerLead": 23.06,
+          "initiatedCheckouts": 3748,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_lead"
+        },
+        {
+          "id": "120247667868660453",
+          "name": "SBM_WEBINAR_INST_ALL_AUD_23-06-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 84833.58,
+          "impressions": 324909,
+          "reach": 144306,
+          "clicks": 3950,
+          "ctr": 1.22,
+          "cpc": 21.48,
+          "cpm": 261.1,
+          "leads": 737,
+          "costPerLead": 115.11,
+          "initiatedCheckouts": 23,
+          "purchaseValue": 4602.0,
+          "purchases": 0,
+          "roas": 0.054,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120247663719360453",
+          "name": "SBM_WEBINARINSTANTFORM_FORM_ALL_AUD_22-06-26- New",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120247604977770453",
+          "name": "SBM_WEBINARINSTANTFORM_FORM_ALL_AUD_22-06-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "conversion_leads:conversion_lead"
+        },
+        {
+          "id": "120247573526880453",
+          "name": "SBM_WEBINAR_INST_ALL_AUD_19-06-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "conversion_leads:conversion_lead"
+        },
+        {
+          "id": "120247307651910453",
+          "name": "SBM_WEBINAR_WEB_ALL_AUD_19-06-26",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 139725.3,
+          "impressions": 300595,
+          "reach": 145149,
+          "clicks": 8284,
+          "ctr": 2.76,
+          "cpc": 16.87,
+          "cpm": 464.83,
+          "leads": 797,
+          "costPerLead": 175.31,
+          "initiatedCheckouts": 1059,
+          "purchaseValue": 10632.0,
+          "purchases": 0,
+          "roas": 0.076,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_lead"
+        },
+        {
+          "id": "120246131515940453",
+          "name": "14July_SBM_WeightLoss_Program_InstantForm_ABO",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120246105707660453",
+          "name": "14July_SBM_WeightLoss_Program_InstantForm",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120237565908150453",
+          "name": "BOFU Conversion full funnel campaign – Copy",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_complete_registration"
+        },
+        {
+          "id": "120237551916040453",
+          "name": "BOFU Conversion full funnel campaign",
+          "status": "PAUSED",
+          "objective": "OUTCOME_SALES",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:purchase"
+        },
+        {
+          "id": "120237476993910453",
+          "name": "MOFU Collab Ads Funnelwise campaign",
+          "status": "PAUSED",
+          "objective": "OUTCOME_ENGAGEMENT",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:link_click"
+        },
+        {
+          "id": "120237305124120453",
+          "name": "MOFU Link click campaign Consideration (Full funnel)",
+          "status": "PAUSED",
+          "objective": "OUTCOME_TRAFFIC",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:link_click"
+        },
+        {
+          "id": "120237196702420453",
+          "name": "TOFU Link click campaign Awarness (Full funnel)",
+          "status": "PAUSED",
+          "objective": "OUTCOME_TRAFFIC",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:link_click"
+        },
+        {
+          "id": "120236944261580453",
+          "name": "Webinar 2 Leads – Open Targeting",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120236791384530453",
+          "name": "Webinar 2 Leads",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120236645767420453",
+          "name": "Webinar method Website leads 23/12",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:offsite_conversion.fb_pixel_lead"
+        },
+        {
+          "id": "120235992237460453",
+          "name": "Webinar 1 Leads – Copy",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        },
+        {
+          "id": "120235846928010453",
+          "name": "Webinar 1 Leads",
+          "status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null,
+          "cpm": null,
+          "leads": 0,
+          "costPerLead": null,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0,
+          "purchases": 0,
+          "roas": null,
+          "resultIndicator": "actions:leadgen.other"
+        }
+      ],
+      "adsets": [
+        {
+          "id": "120249512523690453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_LAL-1%_AUG",
+          "campaignId": "120249512523680453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 1131.11,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 2508,
+          "clicks": 23,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Kolkata",
+              "Chennai",
+              "Hyderabad"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [
+              "Lookalike (1%) - Converted_SBM_Customer_List_Aug.csv"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249025270620453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_RTG",
+          "campaignId": "120249025270630453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 110815.69,
+          "leads": 11.0,
+          "costPerLead": 10074.15,
+          "purchaseValue": 256880.1,
+          "impressions": 81447,
+          "clicks": 1772,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249024935540453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_LAL-1% Videos",
+          "campaignId": "120249024935760453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 67767.73,
+          "leads": 10.0,
+          "costPerLead": 6776.77,
+          "purchaseValue": 182826.92,
+          "impressions": 71311,
+          "clicks": 1694,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Lookalike (1%) - SBM_ALL_LEADS_RTG",
+              "Lookalike (1%) - Webinar_LEADS_RTG_DATA",
+              "Lookalike (1%) - SBM Website - Website using Purchase",
+              "Lookalike (1%) - Instagram engagers 365"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248845560620453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_LAL-1%",
+          "campaignId": "120248845560530453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 130950.93,
+          "leads": 15.0,
+          "costPerLead": 8730.06,
+          "purchaseValue": 334150.02,
+          "impressions": 157992,
+          "clicks": 1870,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 50,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249393740050453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_RTG(SAND_CLOCK)",
+          "campaignId": "120249393739910453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 5864.8,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 29615.64,
+          "impressions": 7834,
+          "clicks": 86,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249270966320453",
+          "name": "SBM_RTG_CTWA",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "optimizationGoal": "CONVERSATIONS",
+          "spend": 992.22,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 4781,
+          "clicks": 97,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249021570510453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_WOMAN_TIER-1",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 10070.29,
+          "leads": 1.0,
+          "costPerLead": 10070.29,
+          "purchaseValue": 0,
+          "impressions": 61534,
+          "clicks": 1486,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249020248280453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_HEALTH_&_FITNESS_TIER-1",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 19282.17,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 241062,
+          "clicks": 8929,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248467356320453",
+          "name": "SBM_REGISTER_PAGE_PROGRAM_SALES_RTG",
+          "campaignId": "120248467356340453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 50,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247755385740453",
+          "name": "SBM_WEB_INST_RTG",
+          "campaignId": "120247755385730453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 15805.06,
+          "leads": 187.0,
+          "costPerLead": 84.52,
+          "purchaseValue": 4602.0,
+          "impressions": 62355,
+          "clicks": 927,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247755064140453",
+          "name": "SBM_WEB_FORM_RTG",
+          "campaignId": "120247754894940453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 43999.46,
+          "leads": 1908.0,
+          "costPerLead": 23.06,
+          "purchaseValue": 0,
+          "impressions": 192200,
+          "clicks": 23414,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180"
+            ],
+            "publisherPlatforms": []
+          }
+        },
+        {
+          "id": "120247668679960453",
+          "name": "SBM_Health_&_Fitness_Tier-1",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 65626.49,
+          "leads": 563.0,
+          "costPerLead": 116.57,
+          "purchaseValue": 4602.0,
+          "impressions": 257773,
+          "clicks": 3062,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247667868640453",
+          "name": "SBM_Woman_Tier-1",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 15794.53,
+          "leads": 129.0,
+          "costPerLead": 122.44,
+          "purchaseValue": 0,
+          "impressions": 59865,
+          "clicks": 731,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247667047090453",
+          "name": "Health_&_Fitness_Tier-1- Instant Form",
+          "campaignId": "120247663719360453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247665913800453",
+          "name": "Food_Choices_Tier-1 – Instant Form",
+          "campaignId": "120247663719360453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247663719270453",
+          "name": "Women_Tier-1 – Instant Form- New",
+          "campaignId": "120247663719360453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247608924210453",
+          "name": "Women_Tier-1 – Instant Form",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "optimizationGoal": "QUALITY_LEAD",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247608496620453",
+          "name": "Food_Choices_Tier-1 – Instant Form",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "optimizationGoal": "QUALITY_LEAD",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247604977780453",
+          "name": "Health_&_Fitness_Tier-1- Instant Form",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "optimizationGoal": "QUALITY_LEAD",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247575672580453",
+          "name": "Inst_Health_&_Fitness_Tier-1",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "optimizationGoal": "QUALITY_LEAD",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": []
+          }
+        },
+        {
+          "id": "120247575333230453",
+          "name": "Inst_Woman_Tier-1",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "optimizationGoal": "QUALITY_LEAD",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": []
+          }
+        },
+        {
+          "id": "120247574612020453",
+          "name": "Inst_Food_Choices_Tier-1",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "optimizationGoal": "QUALITY_LEAD",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": []
+          }
+        },
+        {
+          "id": "120247313549660453",
+          "name": "Health_&_Fitness_Tier-1",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 107696.42,
+          "leads": 603.0,
+          "costPerLead": 178.6,
+          "purchaseValue": 0,
+          "impressions": 237661,
+          "clicks": 6241,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247307651890453",
+          "name": "Women_Tier-1",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 15008.4,
+          "leads": 81.0,
+          "costPerLead": 185.29,
+          "purchaseValue": 0,
+          "impressions": 30238,
+          "clicks": 718,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120246131516050453",
+          "name": "Health_&_Fitness_Tier-1",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120246131516040453",
+          "name": "Food_Choices_Tier-1",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120246131515930453",
+          "name": "Woman_Tier-1",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120246117073810453",
+          "name": "Woman_Tier-1",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120246116591430453",
+          "name": "Food_Choices_Tier-1",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120246105707650453",
+          "name": "Health_&_Fitness_Tier-1",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237565908190453",
+          "name": "BOFU Interest based full funnel conversion",
+          "campaignId": "120237565908150453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 27,
+            "ageMax": 55,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237565908160453",
+          "name": "All Remarketing Audience",
+          "campaignId": "120237565908150453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "TOFU Video viewers audience",
+              "Website visitors",
+              "People who Visited our Instagram Page",
+              "All Visitors of Ads"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237553045180453",
+          "name": "All Remarketing Audience",
+          "campaignId": "120237551916040453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "TOFU Video viewers audience",
+              "Website visitors",
+              "People who Visited our Instagram Page",
+              "All Visitors of Ads"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237551916030453",
+          "name": "BOFU Interest based full funnel conversion",
+          "campaignId": "120237551916040453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 27,
+            "ageMax": 55,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237476993920453",
+          "name": "MOFU Collab Ads Funnelwise campaign",
+          "campaignId": "120237476993910453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LINK_CLICKS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "TOFU Video viewers audience",
+              "Website visitors",
+              "People who Visited our Instagram Page"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237306563910453",
+          "name": "MOFU Link click Cohurt - Frustrated and Strugglers Consideration (Full funnel)",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LINK_CLICKS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 27,
+            "ageMax": 55,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237306240810453",
+          "name": "MOFU Link click Instagram visitors Consideration (Full funnel)",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LINK_CLICKS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "People who Visited our Instagram Page"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237305124130453",
+          "name": "MOFU Link click Video views & Website visitors Consideration (Full funnel)",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LINK_CLICKS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "TOFU Video viewers audience",
+              "Website visitors"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120237196702430453",
+          "name": "Awareness All Health and Fitness Audience TOFU",
+          "campaignId": "120237196702420453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LINK_CLICKS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120236944261600453",
+          "name": "Webinar 2 Open Targeting women",
+          "campaignId": "120236944261580453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120236791384540453",
+          "name": "Webinar 2 women centric",
+          "campaignId": "120236791384530453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 30,
+            "ageMax": 55,
+            "genders": [
+              "Female"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120236645767430453",
+          "name": "Webinar method Website leads 23/12 weightloss audience",
+          "campaignId": "120236645767420453",
+          "status": "ACTIVE",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 27,
+            "ageMax": 55,
+            "genders": [
+              "Female"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120235992237450453",
+          "name": "Webinar 1  All cohurt advance",
+          "campaignId": "120235992237460453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 55,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120235846928000453",
+          "name": "Webinar 1  All cohurt advance",
+          "campaignId": "120235846928010453",
+          "status": "ACTIVE",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 55,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249270966310453",
+          "name": "SBM_HEALTH_AND_FITNESS-HHI_CTWA",
+          "campaignId": "120249270966260453",
+          "status": "PAUSED",
+          "optimizationGoal": "CONVERSATIONS",
+          "spend": 84.77,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 511,
+          "clicks": 8,
+          "targeting": {
+            "ageMin": 18,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249049562600453",
+          "name": "WOMAN_Tier-1_WEBINAR-7",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 1843.61,
+          "leads": 13.0,
+          "costPerLead": 141.82,
+          "purchaseValue": 0,
+          "impressions": 3438,
+          "clicks": 297,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249049344930453",
+          "name": "Health_&_Fitness_Tier-1_WEBINAR-7",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 13021.3,
+          "leads": 87.0,
+          "costPerLead": 149.67,
+          "purchaseValue": 0,
+          "impressions": 24955,
+          "clicks": 910,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249047509380453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_LAL-1% _WOMAN",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 11482.87,
+          "leads": 3.0,
+          "costPerLead": 3827.62,
+          "purchaseValue": 12036.0,
+          "impressions": 11922,
+          "clicks": 241,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 50,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249046151200453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_LAL-1% –Statics",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 38047.9,
+          "leads": 7.0,
+          "costPerLead": 5435.41,
+          "purchaseValue": 56284.82,
+          "impressions": 147869,
+          "clicks": 2072,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Lookalike (1%) - SBM_ALL_LEADS_RTG",
+              "Lookalike (1%) - Webinar_LEADS_RTG_DATA",
+              "Lookalike (1%) - SBM Website - Website using Purchase",
+              "Lookalike (1%) - Instagram engagers 365"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249027789040453",
+          "name": "SBM_1&3_MONTHS_PROGRAM_SALES_WOMAN_TIER-1",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 14815.06,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 226379,
+          "clicks": 4699,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120249027789030453",
+          "name": "SBM_1&3_MONTHS_PROGRAM_SALES_HEALTH_&_FITNESS_TIER-1",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 29888.64,
+          "leads": 1.0,
+          "costPerLead": 29888.64,
+          "purchaseValue": 4602.0,
+          "impressions": 643386,
+          "clicks": 16689,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248672443300453",
+          "name": "SBM_1&3_MONTHS_PROGRAM_SALES_LAL_1%",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 101.07,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 124,
+          "clicks": 4,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 50,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Lookalike (1%) - SBM_ALL_LEADS_RTG"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248512150710453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_RTG_ALL_AUD",
+          "campaignId": "120248512150660453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 49954.38,
+          "leads": 6.0,
+          "costPerLead": 8325.73,
+          "purchaseValue": 33276.0,
+          "impressions": 59372,
+          "clicks": 837,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 50,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248401732010453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_HEALTH_&_FITNESS_TIER-1",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248401720230453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_FOOD_CHOICES_TIER-1",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "All"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248401655490453",
+          "name": "SBM_3_MONTHS_PROGRAM_SALES_WOMAN_TIER-1",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120248401049070453",
+          "name": "SBM_1&3_MONTHS_PROGRAM_SALES_RTG_ALL_AUD",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 53490.45,
+          "leads": 10.0,
+          "costPerLead": 5349.05,
+          "purchaseValue": 46023.0,
+          "impressions": 57405,
+          "clicks": 884,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 50,
+            "genders": [
+              "All"
+            ],
+            "cities": [],
+            "regions": [],
+            "countries": [
+              "IN"
+            ],
+            "customAudiences": [
+              "Instagram engagers 365",
+              "Facebook engagers 365",
+              "Website Visitors 180",
+              "Webinar_LEADS_RTG_DATA"
+            ],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247669107320453",
+          "name": "SBM_Food_Tier-1",
+          "campaignId": "120247667868660453",
+          "status": "PAUSED",
+          "optimizationGoal": "LEAD_GENERATION",
+          "spend": 3412.56,
+          "leads": 45.0,
+          "costPerLead": 75.83,
+          "purchaseValue": 0,
+          "impressions": 7271,
+          "clicks": 157,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        },
+        {
+          "id": "120247313529700453",
+          "name": "Food_Choices_Tier-1",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "optimizationGoal": "OFFSITE_CONVERSIONS",
+          "spend": 2155.57,
+          "leads": 13.0,
+          "costPerLead": 165.81,
+          "purchaseValue": 10620.0,
+          "impressions": 4303,
+          "clicks": 118,
+          "targeting": {
+            "ageMin": 25,
+            "ageMax": 65,
+            "genders": [
+              "Female"
+            ],
+            "cities": [
+              "Ahmedabad",
+              "Bangalore",
+              "Bhopal",
+              "Bhubaneswar",
+              "Kolkata"
+            ],
+            "regions": [
+              "Delhi"
+            ],
+            "countries": null,
+            "customAudiences": [],
+            "publisherPlatforms": [
+              "facebook",
+              "instagram"
+            ]
+          }
+        }
+      ],
+      "ads": [
+        {
+          "id": "120249512837340453",
+          "name": "AD-3",
+          "adsetId": "120249512523690453",
+          "campaignId": "120249512523680453",
+          "status": "ACTIVE",
+          "creativeId": "1756503512206577",
+          "spend": 914.0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 2077,
+          "clicks": 19,
+          "ctr": 0.91,
+          "cpc": 48.11
+        },
+        {
+          "id": "120249025270710453",
+          "name": "SBM_SALES_RTG_AD-4",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "ACTIVE",
+          "creativeId": "928463826704488",
+          "spend": 76809.76,
+          "leads": 2.0,
+          "costPerLead": 38404.88,
+          "purchaseValue": 176759.28,
+          "impressions": 54403,
+          "clicks": 1227,
+          "ctr": 2.26,
+          "cpc": 62.6
+        },
+        {
+          "id": "120249153267630453",
+          "name": "SBM_SALES_RTG_AD-12",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "ACTIVE",
+          "creativeId": "1608407464139197",
+          "spend": 10968.83,
+          "leads": 3.0,
+          "costPerLead": 3656.28,
+          "purchaseValue": 43542.0,
+          "impressions": 7687,
+          "clicks": 161,
+          "ctr": 2.09,
+          "cpc": 68.13
+        },
+        {
+          "id": "120249155352340453",
+          "name": "SBM_SALES_LAL-1%_AD-13",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "ACTIVE",
+          "creativeId": "1562546731904269",
+          "spend": 27807.58,
+          "leads": 2.0,
+          "costPerLead": 13903.79,
+          "purchaseValue": 101998.1,
+          "impressions": 33213,
+          "clicks": 700,
+          "ctr": 2.11,
+          "cpc": 39.73
+        },
+        {
+          "id": "120249024935700453",
+          "name": "SBM_SALES_LAL-1%_AD-3",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "ACTIVE",
+          "creativeId": "2120242852242721",
+          "spend": 8838.21,
+          "leads": 2.0,
+          "costPerLead": 4419.11,
+          "purchaseValue": 51800.82,
+          "impressions": 10243,
+          "clicks": 185,
+          "ctr": 1.81,
+          "cpc": 47.77
+        },
+        {
+          "id": "120249153345440453",
+          "name": "SBM_SALES_RTG_AD-13",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "ACTIVE",
+          "creativeId": "2629599527498728",
+          "spend": 4203.27,
+          "leads": 2.0,
+          "costPerLead": 2101.64,
+          "purchaseValue": 12036.0,
+          "impressions": 3415,
+          "clicks": 78,
+          "ctr": 2.28,
+          "cpc": 53.89
+        },
+        {
+          "id": "120249512523670453",
+          "name": "AD-2",
+          "adsetId": "120249512523690453",
+          "campaignId": "120249512523680453",
+          "status": "ACTIVE",
+          "creativeId": "1401021455307201",
+          "spend": 4.64,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 24,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120249512855610453",
+          "name": "AD-1",
+          "adsetId": "120249512523690453",
+          "campaignId": "120249512523680453",
+          "status": "ACTIVE",
+          "creativeId": "1396512812621117",
+          "spend": 188.18,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 357,
+          "clicks": 3,
+          "ctr": 0.84,
+          "cpc": 62.73
+        },
+        {
+          "id": "120249512819260453",
+          "name": "AD-4",
+          "adsetId": "120249512523690453",
+          "campaignId": "120249512523680453",
+          "status": "ACTIVE",
+          "creativeId": "3606964606138580",
+          "spend": 24.29,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 50,
+          "clicks": 1,
+          "ctr": 2.0,
+          "cpc": 24.29
+        },
+        {
+          "id": "120248845560590453",
+          "name": "SBM_SALES_LAL_AD-3",
+          "adsetId": "120248845560620453",
+          "campaignId": "120248845560530453",
+          "status": "ACTIVE",
+          "creativeId": "1564467845207112",
+          "spend": 96694.81,
+          "leads": 8.0,
+          "costPerLead": 12086.85,
+          "purchaseValue": 310078.02,
+          "impressions": 110766,
+          "clicks": 1247,
+          "ctr": 1.13,
+          "cpc": 77.54
+        },
+        {
+          "id": "120249393739940453",
+          "name": "SBM_SALES_RTG_SAND_CLOCK",
+          "adsetId": "120249393740050453",
+          "campaignId": "120249393739910453",
+          "status": "ACTIVE",
+          "creativeId": "1591313409185240",
+          "spend": 5864.8,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 29615.64,
+          "impressions": 7834,
+          "clicks": 86,
+          "ctr": 1.1,
+          "cpc": 68.2
+        },
+        {
+          "id": "120249270966290453",
+          "name": "CTWA_PRO_AD-2",
+          "adsetId": "120249270966320453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "1591736265748395",
+          "spend": 62.53,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 137,
+          "clicks": 10,
+          "ctr": 7.3,
+          "cpc": 6.25
+        },
+        {
+          "id": "120249278472620453",
+          "name": "CTWA_PRO_AD-5",
+          "adsetId": "120249270966320453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "1551303275852558",
+          "spend": 28.68,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 113,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120249278396980453",
+          "name": "CTWA_PRO_AD-4",
+          "adsetId": "120249270966320453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "812822861853340",
+          "spend": 18.81,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 30,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120249278384990453",
+          "name": "CTWA_PRO_AD-3",
+          "adsetId": "120249270966320453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "1044249755028186",
+          "spend": 723.51,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 3401,
+          "clicks": 87,
+          "ctr": 2.56,
+          "cpc": 8.32
+        },
+        {
+          "id": "120249270966280453",
+          "name": "CTWA_PRO_AD-1",
+          "adsetId": "120249270966310453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "1594200219011174",
+          "spend": 79.23,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 497,
+          "clicks": 3,
+          "ctr": 0.6,
+          "cpc": 26.41
+        },
+        {
+          "id": "120249270966300453",
+          "name": "CTWA_PRO_AD-1",
+          "adsetId": "120249270966320453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "1359145012630502",
+          "spend": 158.69,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 1100,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120249021570570453",
+          "name": "SBM_SALES_PRO_AD-2",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1034557042489234",
+          "spend": 3463.31,
+          "leads": 1.0,
+          "costPerLead": 3463.31,
+          "purchaseValue": 0,
+          "impressions": 14412,
+          "clicks": 349,
+          "ctr": 2.42,
+          "cpc": 9.92
+        },
+        {
+          "id": "120249021570590453",
+          "name": "SBM_SALES_PRO_AD-3",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1059668043199616",
+          "spend": 3797.14,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 28976,
+          "clicks": 663,
+          "ctr": 2.29,
+          "cpc": 5.73
+        },
+        {
+          "id": "120249028657210453",
+          "name": "SBM_SALES_PRO_AD-11",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1971184596870151",
+          "spend": 374.21,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 4034,
+          "clicks": 183,
+          "ctr": 4.54,
+          "cpc": 2.04
+        },
+        {
+          "id": "120249047455820453",
+          "name": "SBM_SALES_PRO_AD-12",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1033244465958049",
+          "spend": 1191.51,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 7242,
+          "clicks": 194,
+          "ctr": 2.68,
+          "cpc": 6.14
+        },
+        {
+          "id": "120249106680200453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-3",
+          "adsetId": "120247755064140453",
+          "campaignId": "120247754894940453",
+          "status": "ACTIVE",
+          "creativeId": "1592886675842405",
+          "spend": 21460.01,
+          "leads": 948.0,
+          "costPerLead": 22.64,
+          "purchaseValue": 0,
+          "impressions": 90271,
+          "clicks": 11376,
+          "ctr": 12.6,
+          "cpc": 1.89
+        },
+        {
+          "id": "120249106711450453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-3 - Copy",
+          "adsetId": "120247307651890453",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "creativeId": "1757715055650485",
+          "spend": 882.65,
+          "leads": 1.0,
+          "costPerLead": 882.65,
+          "purchaseValue": 0,
+          "impressions": 1821,
+          "clicks": 38,
+          "ctr": 2.09,
+          "cpc": 23.23
+        },
+        {
+          "id": "120249106711340453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-1 - Copy",
+          "adsetId": "120247313549660453",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "creativeId": "1079770241366418",
+          "spend": 4566.51,
+          "leads": 24.0,
+          "costPerLead": 190.27,
+          "purchaseValue": 0,
+          "impressions": 9073,
+          "clicks": 399,
+          "ctr": 4.4,
+          "cpc": 11.44
+        },
+        {
+          "id": "120249106711350453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-3 - Copy",
+          "adsetId": "120247313549660453",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "creativeId": "1597002675288214",
+          "spend": 6057.22,
+          "leads": 16.0,
+          "costPerLead": 378.58,
+          "purchaseValue": 0,
+          "impressions": 14613,
+          "clicks": 258,
+          "ctr": 1.77,
+          "cpc": 23.48
+        },
+        {
+          "id": "120249106711360453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-2 - Copy",
+          "adsetId": "120247313549660453",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "creativeId": "980322115059060",
+          "spend": 27140.51,
+          "leads": 106.0,
+          "costPerLead": 256.04,
+          "purchaseValue": 0,
+          "impressions": 66105,
+          "clicks": 965,
+          "ctr": 1.46,
+          "cpc": 28.12
+        },
+        {
+          "id": "120249106711460453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-2 - Copy",
+          "adsetId": "120247307651890453",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "creativeId": "1079076651217039",
+          "spend": 4221.01,
+          "leads": 24.0,
+          "costPerLead": 175.88,
+          "purchaseValue": 0,
+          "impressions": 9013,
+          "clicks": 168,
+          "ctr": 1.86,
+          "cpc": 25.13
+        },
+        {
+          "id": "120249106711440453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-1 - Copy",
+          "adsetId": "120247307651890453",
+          "campaignId": "120247307651910453",
+          "status": "ACTIVE",
+          "creativeId": "1061683116312784",
+          "spend": 339.97,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 603,
+          "clicks": 20,
+          "ctr": 3.32,
+          "cpc": 17.0
+        },
+        {
+          "id": "120249106673590453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-2",
+          "adsetId": "120247755064140453",
+          "campaignId": "120247754894940453",
+          "status": "ACTIVE",
+          "creativeId": "1006396078884267",
+          "spend": 7407.67,
+          "leads": 313.0,
+          "costPerLead": 23.67,
+          "purchaseValue": 0,
+          "impressions": 30758,
+          "clicks": 3858,
+          "ctr": 12.54,
+          "cpc": 1.92
+        },
+        {
+          "id": "120249106660360453",
+          "name": "SBM_WEB_LEAD_WEBINAR-8_AD-1",
+          "adsetId": "120247755064140453",
+          "campaignId": "120247754894940453",
+          "status": "ACTIVE",
+          "creativeId": "2842031106170400",
+          "spend": 4078.69,
+          "leads": 195.0,
+          "costPerLead": 20.92,
+          "purchaseValue": 0,
+          "impressions": 16947,
+          "clicks": 2174,
+          "ctr": 12.83,
+          "cpc": 1.88
+        },
+        {
+          "id": "120249106639800453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-2 - Copy",
+          "adsetId": "120247668679960453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "3166545197068467",
+          "spend": 15605.22,
+          "leads": 111.0,
+          "costPerLead": 140.59,
+          "purchaseValue": 0,
+          "impressions": 97089,
+          "clicks": 931,
+          "ctr": 0.96,
+          "cpc": 16.76
+        },
+        {
+          "id": "120249106639430453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-2 - Copy",
+          "adsetId": "120247667868640453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "1934299184484082",
+          "spend": 3774.19,
+          "leads": 21.0,
+          "costPerLead": 179.72,
+          "purchaseValue": 0,
+          "impressions": 27092,
+          "clicks": 239,
+          "ctr": 0.88,
+          "cpc": 15.79
+        },
+        {
+          "id": "120249106639460453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-2 - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "2543861086081619",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249106639480453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-1 - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "1078005988512353",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249106639440453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-1 - Copy",
+          "adsetId": "120247667868640453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "1351091357225292",
+          "spend": 203.27,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 1287,
+          "clicks": 4,
+          "ctr": 0.31,
+          "cpc": 50.82
+        },
+        {
+          "id": "120249106639450453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-3 - Copy",
+          "adsetId": "120247667868640453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "1029735532992493",
+          "spend": 1009.66,
+          "leads": 2.0,
+          "costPerLead": 504.83,
+          "purchaseValue": 0,
+          "impressions": 4862,
+          "clicks": 54,
+          "ctr": 1.11,
+          "cpc": 18.7
+        },
+        {
+          "id": "120249106639810453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-3 - Copy",
+          "adsetId": "120247668679960453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "1590286272452472",
+          "spend": 7011.8,
+          "leads": 33.0,
+          "costPerLead": 212.48,
+          "purchaseValue": 0,
+          "impressions": 49030,
+          "clicks": 404,
+          "ctr": 0.82,
+          "cpc": 17.36
+        },
+        {
+          "id": "120249106639470453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-3 - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "1029735532992493",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249106639790453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-1 - Copy",
+          "adsetId": "120247668679960453",
+          "campaignId": "120247667868660453",
+          "status": "ACTIVE",
+          "creativeId": "2169456443598942",
+          "spend": 317.89,
+          "leads": 1.0,
+          "costPerLead": 317.89,
+          "purchaseValue": 0,
+          "impressions": 2701,
+          "clicks": 16,
+          "ctr": 0.59,
+          "cpc": 19.87
+        },
+        {
+          "id": "120249106339790453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-2",
+          "adsetId": "120247755385740453",
+          "campaignId": "120247755385730453",
+          "status": "ACTIVE",
+          "creativeId": "1428491599102567",
+          "spend": 1634.56,
+          "leads": 15.0,
+          "costPerLead": 108.97,
+          "purchaseValue": 0,
+          "impressions": 5664,
+          "clicks": 86,
+          "ctr": 1.52,
+          "cpc": 19.01
+        },
+        {
+          "id": "120249106350380453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-3",
+          "adsetId": "120247755385740453",
+          "campaignId": "120247755385730453",
+          "status": "ACTIVE",
+          "creativeId": "1377946374305141",
+          "spend": 3234.53,
+          "leads": 24.0,
+          "costPerLead": 134.77,
+          "purchaseValue": 0,
+          "impressions": 15979,
+          "clicks": 174,
+          "ctr": 1.09,
+          "cpc": 18.59
+        },
+        {
+          "id": "120249065778820453",
+          "name": "SBM_INST_LEAD_WEBINAR-8_AD-1",
+          "adsetId": "120247755385740453",
+          "campaignId": "120247755385730453",
+          "status": "ACTIVE",
+          "creativeId": "1027918666760996",
+          "spend": 323.91,
+          "leads": 3.0,
+          "costPerLead": 107.97,
+          "purchaseValue": 0,
+          "impressions": 1312,
+          "clicks": 14,
+          "ctr": 1.07,
+          "cpc": 23.14
+        },
+        {
+          "id": "120249028892390453",
+          "name": "SBM_SALES_PRO_AD-11",
+          "adsetId": "120249020248280453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1042944378477136",
+          "spend": 335.13,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 4860,
+          "clicks": 114,
+          "ctr": 2.35,
+          "cpc": 2.94
+        },
+        {
+          "id": "120249021126210453",
+          "name": "SBM_SALES_PRO_AD-2",
+          "adsetId": "120249020248280453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1035071082461319",
+          "spend": 11892.18,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 162299,
+          "clicks": 7592,
+          "ctr": 4.68,
+          "cpc": 1.57
+        },
+        {
+          "id": "120249021126230453",
+          "name": "SBM_SALES_PRO_AD-3",
+          "adsetId": "120249020248280453",
+          "campaignId": "120249020248270453",
+          "status": "ACTIVE",
+          "creativeId": "1704929447393555",
+          "spend": 4026.54,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 39343,
+          "clicks": 914,
+          "ctr": 2.32,
+          "cpc": 4.41
+        },
+        {
+          "id": "120246131516000453",
+          "name": "Health_&_Fitness_Tier-1_Ad-1",
+          "adsetId": "120246131516050453",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "creativeId": "1007396688321234",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246105707640453",
+          "name": "Health_&_Fitness_Tier-1_Ad-1",
+          "adsetId": "120246105707650453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "1544749953849538",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247575672620453",
+          "name": "Ad-2",
+          "adsetId": "120247575672580453",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "creativeId": "1508416714415797",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247608271460453",
+          "name": "Ad 2- Instant Form",
+          "adsetId": "120247604977780453",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "creativeId": "2543789966055015",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247604977790453",
+          "name": "Ad 1- Instant Form",
+          "adsetId": "120247604977780453",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "creativeId": "1036231875655672",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246116425480453",
+          "name": "Health_&_Fitness_Tier-1_Ad-2",
+          "adsetId": "120246105707650453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "1678654599870955",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247575672600453",
+          "name": "Ad-3",
+          "adsetId": "120247575672580453",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "creativeId": "1773435273641463",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246131516030453",
+          "name": "Woman_Tier-1_Ad-1",
+          "adsetId": "120246131515930453",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "creativeId": "1757862872099415",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246117073830453",
+          "name": "Health_&_Fitness_Tier-1_Ad-1",
+          "adsetId": "120246117073810453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "1201210188729152",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246116591450453",
+          "name": "Health_&_Fitness_Tier-1_Ad-1",
+          "adsetId": "120246116591430453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "1201210188729152",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246131515960453",
+          "name": "Food_Choices_Tier-1_Ad-1",
+          "adsetId": "120246131516040453",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "creativeId": "950493091372881",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246117073820453",
+          "name": "Health_&_Fitness_Tier-1_Ad-2",
+          "adsetId": "120246117073810453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "1678654599870955",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246119519490453",
+          "name": "Health_&_Fitness_Tier-1_Ad-3",
+          "adsetId": "120246117073810453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "28080965088159943",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247608924200453",
+          "name": "Ad 2- Instant Form",
+          "adsetId": "120247608924210453",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "creativeId": "1658706581902112",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247575333260453",
+          "name": "Ad-3",
+          "adsetId": "120247575333230453",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "creativeId": "1322459749970506",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247575333250453",
+          "name": "Ad-2",
+          "adsetId": "120247575333230453",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "creativeId": "2186656352188332",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246131516010453",
+          "name": "Woman_Tier-1_Ad-3",
+          "adsetId": "120246131515930453",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "creativeId": "1534855348147990",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247608924220453",
+          "name": "Ad 1- Instant Form",
+          "adsetId": "120247608924210453",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "creativeId": "1522989369269389",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247663719260453",
+          "name": "Ad 1- Instant Form- New",
+          "adsetId": "120247663719270453",
+          "campaignId": "120247663719360453",
+          "status": "ACTIVE",
+          "creativeId": "1044553664667091",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247664209070453",
+          "name": "Ad 2- Instant Form- New",
+          "adsetId": "120247663719270453",
+          "campaignId": "120247663719360453",
+          "status": "ACTIVE",
+          "creativeId": "1683973842814108",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246119840940453",
+          "name": "Health_&_Fitness_Tier-1_Ad-3",
+          "adsetId": "120246116591430453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "2262577507834518",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247608496600453",
+          "name": "Ad 1- Instant Form",
+          "adsetId": "120247608496620453",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "creativeId": "1536031851344207",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246116591440453",
+          "name": "Health_&_Fitness_Tier-1_Ad-2",
+          "adsetId": "120246116591430453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "1678654599870955",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247574612040453",
+          "name": "Ad-2",
+          "adsetId": "120247574612020453",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "creativeId": "1021510437398896",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247608496610453",
+          "name": "Ad 2- Instant Form",
+          "adsetId": "120247608496620453",
+          "campaignId": "120247604977770453",
+          "status": "ACTIVE",
+          "creativeId": "885586541255107",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120247574612050453",
+          "name": "Ad-3",
+          "adsetId": "120247574612020453",
+          "campaignId": "120247573526880453",
+          "status": "ACTIVE",
+          "creativeId": "27437538909207399",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248467356370453",
+          "name": "SBM_REG_SALES_RTG_AD-1",
+          "adsetId": "120248467356320453",
+          "campaignId": "120248467356340453",
+          "status": "ACTIVE",
+          "creativeId": "2567637087071884",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248467356360453",
+          "name": "SBM_REG_SALES_RTG_AD-2",
+          "adsetId": "120248467356320453",
+          "campaignId": "120248467356340453",
+          "status": "ACTIVE",
+          "creativeId": "1638998630522123",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248467356330453",
+          "name": "SBM_REG_SALES_RTG_AD-4",
+          "adsetId": "120248467356320453",
+          "campaignId": "120248467356340453",
+          "status": "ACTIVE",
+          "creativeId": "1017896967761371",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248467356350453",
+          "name": "SBM_REG_SALES_RTG_AD-3",
+          "adsetId": "120248467356320453",
+          "campaignId": "120248467356340453",
+          "status": "ACTIVE",
+          "creativeId": "997743439807642",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237565908180453",
+          "name": "Tofu Creative 1 Binoculars",
+          "adsetId": "120237565908160453",
+          "campaignId": "120237565908150453",
+          "status": "ACTIVE",
+          "creativeId": "3967602333531863",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237478457360453",
+          "name": "MOFU Collab Ads Funnelwise campaign Kirti",
+          "adsetId": "120237476993920453",
+          "campaignId": "120237476993910453",
+          "status": "ACTIVE",
+          "creativeId": "863249343150136",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237565908170453",
+          "name": "Tofu Creative 1 Binoculars",
+          "adsetId": "120237565908190453",
+          "campaignId": "120237565908150453",
+          "status": "ACTIVE",
+          "creativeId": "1306830241471216",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237558674850453",
+          "name": "Static Creative Sustainable weight loss",
+          "adsetId": "120237305124130453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1692169542190644",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237476993900453",
+          "name": "MOFU Collab Ads Funnelwise campaign Meghna",
+          "adsetId": "120237476993920453",
+          "campaignId": "120237476993910453",
+          "status": "ACTIVE",
+          "creativeId": "755301177617182",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237479134000453",
+          "name": "MOFU Collab Ads Funnelwise campaign  Ashiq",
+          "adsetId": "120237476993920453",
+          "campaignId": "120237476993910453",
+          "status": "ACTIVE",
+          "creativeId": "1261124706050026",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237558933400453",
+          "name": "Static Creative Sustainable weight loss – Copy",
+          "adsetId": "120237305124130453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1692169542190644",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237558498510453",
+          "name": "Static Creative Sustainable weight loss",
+          "adsetId": "120237306563910453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1692169542190644",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237558934300453",
+          "name": "Static Creative Sustainable weight loss – Copy",
+          "adsetId": "120237306240810453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1692169542190644",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237558806860453",
+          "name": "Static Creative Balanced diet",
+          "adsetId": "120237306563910453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1204669277885323",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237558674860453",
+          "name": "Static Creative Sustainable weight loss",
+          "adsetId": "120237306240810453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1692169542190644",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237551916020453",
+          "name": "Tofu Creative 1 Binoculars",
+          "adsetId": "120237551916030453",
+          "campaignId": "120237551916040453",
+          "status": "ACTIVE",
+          "creativeId": "1306830241471216",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237553778060453",
+          "name": "Tofu Creative 1 Binoculars",
+          "adsetId": "120237553045180453",
+          "campaignId": "120237551916040453",
+          "status": "ACTIVE",
+          "creativeId": "1589696128701291",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120236791384550453",
+          "name": "Webinar 2",
+          "adsetId": "120236791384540453",
+          "campaignId": "120236791384530453",
+          "status": "ACTIVE",
+          "creativeId": "1303271578274353",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120236944261590453",
+          "name": "Webinar 2",
+          "adsetId": "120236944261600453",
+          "campaignId": "120236944261580453",
+          "status": "ACTIVE",
+          "creativeId": "2112748629260596",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237345460300453",
+          "name": "Varsha  Influencer Video",
+          "adsetId": "120237306563910453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1169224211864737",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237345460950453",
+          "name": "Varsha  Influencer Video",
+          "adsetId": "120237306240810453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1169224211864737",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237345004040453",
+          "name": "Varsha  Influencer Video",
+          "adsetId": "120237305124130453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1169224211864737",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237305124140453",
+          "name": "Neha Influencer Video",
+          "adsetId": "120237305124130453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "26769843959271404",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237306563920453",
+          "name": "Neha Influencer Video",
+          "adsetId": "120237306563910453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "860641143543704",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237306240820453",
+          "name": "Neha Influencer Video",
+          "adsetId": "120237306240810453",
+          "campaignId": "120237305124120453",
+          "status": "ACTIVE",
+          "creativeId": "1323167313183956",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237199725180453",
+          "name": "Awareness coach Raj's Video Full funnel – Copy",
+          "adsetId": "120237196702430453",
+          "campaignId": "120237196702420453",
+          "status": "ACTIVE",
+          "creativeId": "3398228567000092",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120237196702410453",
+          "name": "Awareness coach Raj's Video Full funnel",
+          "adsetId": "120237196702430453",
+          "campaignId": "120237196702420453",
+          "status": "ACTIVE",
+          "creativeId": "1649386719386347",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120236645767410453",
+          "name": "Webinar Coach Raj Video  1",
+          "adsetId": "120236645767430453",
+          "campaignId": "120236645767420453",
+          "status": "ACTIVE",
+          "creativeId": "828982586633263",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248401732030453",
+          "name": "SBM_SALES_PRO_AD-1",
+          "adsetId": "120248401732010453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "2934059513602070",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249153013860453",
+          "name": "SBM_SALES_PRO_AD-13",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2227501561437010",
+          "spend": 47.89,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 3321,
+          "clicks": 10,
+          "ctr": 0.3,
+          "cpc": 4.79
+        },
+        {
+          "id": "120248401655480453",
+          "name": "SBM_SALES_PRO_AD-1",
+          "adsetId": "120248401655490453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "1510024360598488",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249270966270453",
+          "name": "CTWA_PRO_AD-2",
+          "adsetId": "120249270966310453",
+          "campaignId": "120249270966260453",
+          "status": "ACTIVE",
+          "creativeId": "2236603650495474",
+          "spend": 5.54,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 14,
+          "clicks": 5,
+          "ctr": 35.71,
+          "cpc": 1.11
+        },
+        {
+          "id": "120246119881860453",
+          "name": "Health_&_Fitness_Tier-1_Ad-3",
+          "adsetId": "120246105707650453",
+          "campaignId": "120246105707660453",
+          "status": "ACTIVE",
+          "creativeId": "942048435533568",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120246131515980453",
+          "name": "Health_&_Fitness_Tier-1_Ad-3",
+          "adsetId": "120246131516050453",
+          "campaignId": "120246131515940453",
+          "status": "ACTIVE",
+          "creativeId": "3254079891447493",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249025270680453",
+          "name": "SBM_SALES_RTG_AD-5",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "1782011946285857",
+          "spend": 141.89,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 141,
+          "clicks": 3,
+          "ctr": 2.13,
+          "cpc": 47.3
+        },
+        {
+          "id": "120249024935680453",
+          "name": "SBM_SALES_LAL-1%_AD-4",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1542093246861434",
+          "spend": 317.96,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 280,
+          "clicks": 10,
+          "ctr": 3.57,
+          "cpc": 31.8
+        },
+        {
+          "id": "120249152950210453",
+          "name": "SBM_SALES_LAL-1%_AD-12",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1764931637870865",
+          "spend": 2331.28,
+          "leads": 1.0,
+          "costPerLead": 2331.28,
+          "purchaseValue": 0,
+          "impressions": 1614,
+          "clicks": 35,
+          "ctr": 2.17,
+          "cpc": 66.61
+        },
+        {
+          "id": "120249025270700453",
+          "name": "SBM_SALES_RTG_AD-2",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "1738806610601370",
+          "spend": 141.7,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 104,
+          "clicks": 4,
+          "ctr": 3.85,
+          "cpc": 35.43
+        },
+        {
+          "id": "120249155198180453",
+          "name": "SBM_SALES_LAL-1%_AD-14",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1750704939575050",
+          "spend": 4124.76,
+          "leads": 5.0,
+          "costPerLead": 824.95,
+          "purchaseValue": 12036.0,
+          "impressions": 3837,
+          "clicks": 74,
+          "ctr": 1.93,
+          "cpc": 55.74
+        },
+        {
+          "id": "120249272277410453",
+          "name": "SBM_SALES_LAL-1%_AD-15",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1049777164472930",
+          "spend": 6737.5,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 16992.0,
+          "impressions": 5026,
+          "clicks": 119,
+          "ctr": 2.37,
+          "cpc": 56.62
+        },
+        {
+          "id": "120249029176420453",
+          "name": "SBM_SALES_LAL-1%_AD-11",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "4578855085725344",
+          "spend": 256.39,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 332,
+          "clicks": 4,
+          "ctr": 1.2,
+          "cpc": 64.1
+        },
+        {
+          "id": "120249024935530453",
+          "name": "SBM_SALES_LAL-1%_AD-6",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1018604354478497",
+          "spend": 5961.7,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 7761,
+          "clicks": 278,
+          "ctr": 3.58,
+          "cpc": 21.44
+        },
+        {
+          "id": "120249024935730453",
+          "name": "SBM_SALES_LAL-1%_AD-7",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1605997207798527",
+          "spend": 139.3,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 169,
+          "clicks": 2,
+          "ctr": 1.18,
+          "cpc": 69.65
+        },
+        {
+          "id": "120249024935690453",
+          "name": "SBM_SALES_LAL-1%_AD-2",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1518371402893111",
+          "spend": 9384.21,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 6313,
+          "clicks": 192,
+          "ctr": 3.04,
+          "cpc": 48.88
+        },
+        {
+          "id": "120249024935710453",
+          "name": "SBM_SALES_LAL-1%_AD-5",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1292739516071603",
+          "spend": 90.03,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 123,
+          "clicks": 7,
+          "ctr": 5.69,
+          "cpc": 12.86
+        },
+        {
+          "id": "120249025270670453",
+          "name": "SBM_SALES_RTG_AD-8_(STATIC)",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "1379693734111567",
+          "spend": 13627.17,
+          "leads": 3.0,
+          "costPerLead": 4542.39,
+          "purchaseValue": 13922.82,
+          "impressions": 12188,
+          "clicks": 227,
+          "ctr": 1.86,
+          "cpc": 60.03
+        },
+        {
+          "id": "120249024935750453",
+          "name": "SBM_SALES_LAL-1%_AD-10_(STATIC)",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1343235867445596",
+          "spend": 188.44,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 269,
+          "clicks": 8,
+          "ctr": 2.97,
+          "cpc": 23.56
+        },
+        {
+          "id": "120249024935720453",
+          "name": "SBM_SALES_LAL-1%_AD-8_(STATIC)",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "2457445281417868",
+          "spend": 965.26,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 1438,
+          "clicks": 57,
+          "ctr": 3.96,
+          "cpc": 16.93
+        },
+        {
+          "id": "120249024935740453",
+          "name": "SBM_SALES_LAL-1%_AD-9_(STATIC)",
+          "adsetId": "120249024935540453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1978055383581119",
+          "spend": 205.0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 324,
+          "clicks": 12,
+          "ctr": 3.7,
+          "cpc": 17.08
+        },
+        {
+          "id": "120249025270640453",
+          "name": "SBM_SALES_RTG_AD-10_(STATIC)",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "2507189423056963",
+          "spend": 360.93,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 388,
+          "clicks": 8,
+          "ctr": 2.06,
+          "cpc": 45.12
+        },
+        {
+          "id": "120249025270690453",
+          "name": "SBM_SALES_RTG_AD-3",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "1388857883158766",
+          "spend": 257.82,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 221,
+          "clicks": 4,
+          "ctr": 1.81,
+          "cpc": 64.46
+        },
+        {
+          "id": "120249025270730453",
+          "name": "SBM_SALES_RTG_AD-6",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "1709579403697329",
+          "spend": 196.6,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 232,
+          "clicks": 10,
+          "ctr": 4.31,
+          "cpc": 19.66
+        },
+        {
+          "id": "120249025270650453",
+          "name": "SBM_SALES_RTG_AD-9_(STATIC)",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "2070143260266609",
+          "spend": 389.67,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 491,
+          "clicks": 14,
+          "ctr": 2.85,
+          "cpc": 27.83
+        },
+        {
+          "id": "120249153411770453",
+          "name": "SBM_SALES_RTG_AD-14",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "1577617784097963",
+          "spend": 1527.64,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 945,
+          "clicks": 16,
+          "ctr": 1.69,
+          "cpc": 95.48
+        },
+        {
+          "id": "120249025270660453",
+          "name": "SBM_SALES_RTG_AD-7",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "2659668467783982",
+          "spend": 72.0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 81,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120249029143580453",
+          "name": "SBM_SALES_RTG_AD-11",
+          "adsetId": "120249025270620453",
+          "campaignId": "120249025270630453",
+          "status": "PAUSED",
+          "creativeId": "807325525731437",
+          "spend": 1401.73,
+          "leads": 1.0,
+          "costPerLead": 1401.73,
+          "purchaseValue": 10620.0,
+          "impressions": 777,
+          "clicks": 10,
+          "ctr": 1.29,
+          "cpc": 140.17
+        },
+        {
+          "id": "120249155443390453",
+          "name": "SBM_SALES_RTG_AD-8",
+          "adsetId": "120248401049070453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "1046849754655474",
+          "spend": 293.1,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 191,
+          "clicks": 4,
+          "ctr": 2.09,
+          "cpc": 73.28
+        },
+        {
+          "id": "120249155553530453",
+          "name": "SBM_SALES_PRO_AD-12",
+          "adsetId": "120249027789030453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1472316794639360",
+          "spend": 303.1,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 9247,
+          "clicks": 87,
+          "ctr": 0.94,
+          "cpc": 3.48
+        },
+        {
+          "id": "120249155456740453",
+          "name": "SBM_SALES_RTG_AD-10",
+          "adsetId": "120248401049070453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "973770175724665",
+          "spend": 654.97,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 11328.0,
+          "impressions": 884,
+          "clicks": 34,
+          "ctr": 3.85,
+          "cpc": 19.26
+        },
+        {
+          "id": "120249153050730453",
+          "name": "SBM_SALES_PRO_AD-14",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2005800406725661",
+          "spend": 654.02,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 21416,
+          "clicks": 168,
+          "ctr": 0.78,
+          "cpc": 3.89
+        },
+        {
+          "id": "120249027788950453",
+          "name": "SBM_SALES_PRO_AD-2",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1360085826318574",
+          "spend": 14.27,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 416,
+          "clicks": 5,
+          "ctr": 1.2,
+          "cpc": 2.85
+        },
+        {
+          "id": "120249027788890453",
+          "name": "SBM_SALES_PRO_AD-2",
+          "adsetId": "120249027789030453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2295627334574185",
+          "spend": 20091.94,
+          "leads": 1.0,
+          "costPerLead": 20091.94,
+          "purchaseValue": 4602.0,
+          "impressions": 354796,
+          "clicks": 12894,
+          "ctr": 3.63,
+          "cpc": 1.56
+        },
+        {
+          "id": "120248713387660453",
+          "name": "SBM_SALES_RTG_AD-3 - Copy",
+          "adsetId": "120248672443300453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "1912522276084476",
+          "spend": 1.3,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 3,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120248713387640453",
+          "name": "SBM_SALES_RTG_AD-1 - Copy",
+          "adsetId": "120248672443300453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "1008898101985192",
+          "spend": 99.77,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 121,
+          "clicks": 4,
+          "ctr": 3.31,
+          "cpc": 24.94
+        },
+        {
+          "id": "120248401732050453",
+          "name": "SBM_SALES_PRO_AD-2",
+          "adsetId": "120248401732010453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "1604372124448313",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248401732040453",
+          "name": "SBM_SALES_PRO_AD-3",
+          "adsetId": "120248401732010453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "1034459185723078",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248401732020453",
+          "name": "SBM_SALES_PRO_AD-4",
+          "adsetId": "120248401732010453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "2087178965481194",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248401655470453",
+          "name": "SBM_SALES_PRO_AD-2",
+          "adsetId": "120248401655490453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "2000327200594373",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248401655450453",
+          "name": "SBM_SALES_PRO_AD-4",
+          "adsetId": "120248401655490453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "1657754668636483",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249155591660453",
+          "name": "SBM_SALES_PRO_AD-14",
+          "adsetId": "120249027789030453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1757670692100237",
+          "spend": 464.58,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 16449,
+          "clicks": 143,
+          "ctr": 0.87,
+          "cpc": 3.25
+        },
+        {
+          "id": "120249155563170453",
+          "name": "SBM_SALES_PRO_AD-13",
+          "adsetId": "120249027789030453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2803686040006139",
+          "spend": 2987.81,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 133540,
+          "clicks": 940,
+          "ctr": 0.7,
+          "cpc": 3.18
+        },
+        {
+          "id": "120249153083010453",
+          "name": "SBM_SALES_PRO_AD-15",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1453986299891913",
+          "spend": 711.9,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 26043,
+          "clicks": 149,
+          "ctr": 0.57,
+          "cpc": 4.78
+        },
+        {
+          "id": "120249027789000453",
+          "name": "SBM_SALES_PRO_AD-1",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2841509292881097",
+          "spend": 2797.13,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 12333,
+          "clicks": 93,
+          "ctr": 0.75,
+          "cpc": 30.08
+        },
+        {
+          "id": "120248713387650453",
+          "name": "SBM_SALES_RTG_AD-4 - Copy",
+          "adsetId": "120248672443300453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "1017369451161372",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248512150680453",
+          "name": "SBM_SALES_RTG_AD-2",
+          "adsetId": "120248512150710453",
+          "campaignId": "120248512150660453",
+          "status": "PAUSED",
+          "creativeId": "1556633399451204",
+          "spend": 24228.29,
+          "leads": 4.0,
+          "costPerLead": 6057.07,
+          "purchaseValue": 28674.0,
+          "impressions": 31012,
+          "clicks": 443,
+          "ctr": 1.43,
+          "cpc": 54.69
+        },
+        {
+          "id": "120249155449450453",
+          "name": "SBM_SALES_RTG_AD-9",
+          "adsetId": "120248401049070453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "1066188459392498",
+          "spend": 512.04,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 460,
+          "clicks": 8,
+          "ctr": 1.74,
+          "cpc": 64.01
+        },
+        {
+          "id": "120249027788830453",
+          "name": "SBM_SALES_PRO_AD-11",
+          "adsetId": "120249027789030453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1707618207406276",
+          "spend": 4982.29,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 120560,
+          "clicks": 2543,
+          "ctr": 2.11,
+          "cpc": 1.96
+        },
+        {
+          "id": "120248401655460453",
+          "name": "SBM_SALES_PRO_AD-3",
+          "adsetId": "120248401655490453",
+          "campaignId": "120248401655440453",
+          "status": "PAUSED",
+          "creativeId": "1037379778773862",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120248401049050453",
+          "name": "SBM_SALES_RTG_AD-1",
+          "adsetId": "120248401049070453",
+          "campaignId": "120248401049060453",
+          "status": "PAUSED",
+          "creativeId": "1600317508278620",
+          "spend": 45272.41,
+          "leads": 9.0,
+          "costPerLead": 5030.27,
+          "purchaseValue": 34695.0,
+          "impressions": 47647,
+          "clicks": 752,
+          "ctr": 1.58,
+          "cpc": 60.2
+        },
+        {
+          "id": "120249047509410453",
+          "name": "SBM_SALES_LAL_AD-1",
+          "adsetId": "120249047509380453",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "creativeId": "2091419124794242",
+          "spend": 11482.87,
+          "leads": 3.0,
+          "costPerLead": 3827.62,
+          "purchaseValue": 12036.0,
+          "impressions": 11922,
+          "clicks": 241,
+          "ctr": 2.02,
+          "cpc": 47.65
+        },
+        {
+          "id": "120249046151230453",
+          "name": "SBM_SALES_LAL-1%_AD-9_(STATIC)",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1978055383581119",
+          "spend": 29676.32,
+          "leads": 5.0,
+          "costPerLead": 5935.26,
+          "purchaseValue": 47080.82,
+          "impressions": 139999,
+          "clicks": 1940,
+          "ctr": 1.39,
+          "cpc": 15.3
+        },
+        {
+          "id": "120249046151300453",
+          "name": "SBM_SALES_LAL-1%_AD-6",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1018604354478497",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046151310453",
+          "name": "SBM_SALES_LAL-1%_AD-2",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1518371402893111",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046151290453",
+          "name": "SBM_SALES_LAL-1%_AD-4",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1542093246861434",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046151270453",
+          "name": "SBM_SALES_LAL-1%_AD-3",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "2120242852242721",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046151220453",
+          "name": "SBM_SALES_LAL-1%_AD-10_(STATIC)",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1343235867445596",
+          "spend": 704.79,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 782,
+          "clicks": 9,
+          "ctr": 1.15,
+          "cpc": 78.31
+        },
+        {
+          "id": "120249046151240453",
+          "name": "SBM_SALES_LAL-1%_AD-7",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1605997207798527",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046151250453",
+          "name": "SBM_SALES_LAL-1%_AD-8_(STATIC)",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "2457445281417868",
+          "spend": 7666.79,
+          "leads": 2.0,
+          "costPerLead": 3833.4,
+          "purchaseValue": 9204.0,
+          "impressions": 7088,
+          "clicks": 123,
+          "ctr": 1.74,
+          "cpc": 62.33
+        },
+        {
+          "id": "120249046151210453",
+          "name": "SBM_SALES_LAL-1%_AD-11",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "4578855085725344",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046151260453",
+          "name": "SBM_SALES_LAL-1%_AD-5",
+          "adsetId": "120249046151200453",
+          "campaignId": "120249024935760453",
+          "status": "PAUSED",
+          "creativeId": "1292739516071603",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249155110650453",
+          "name": "SBM_SALES_LAL_AD-10",
+          "adsetId": "120248845560620453",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "creativeId": "1497871468693983",
+          "spend": 754.73,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 615,
+          "clicks": 14,
+          "ctr": 2.28,
+          "cpc": 53.91
+        },
+        {
+          "id": "120249155095480453",
+          "name": "SBM_SALES_LAL_AD-9",
+          "adsetId": "120248845560620453",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "creativeId": "1562465198750093",
+          "spend": 2547.7,
+          "leads": 1.0,
+          "costPerLead": 2547.7,
+          "purchaseValue": 0,
+          "impressions": 2626,
+          "clicks": 50,
+          "ctr": 1.9,
+          "cpc": 50.95
+        },
+        {
+          "id": "120249155079410453",
+          "name": "SBM_SALES_LAL_AD-8",
+          "adsetId": "120248845560620453",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "creativeId": "1430795085779111",
+          "spend": 264.64,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 221,
+          "clicks": 1,
+          "ctr": 0.45,
+          "cpc": 264.64
+        },
+        {
+          "id": "120248845560600453",
+          "name": "SBM_SALES_LAL_AD-2",
+          "adsetId": "120248845560620453",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "creativeId": "1055826463653518",
+          "spend": 1728.54,
+          "leads": 1.0,
+          "costPerLead": 1728.54,
+          "purchaseValue": 12036.0,
+          "impressions": 1626,
+          "clicks": 29,
+          "ctr": 1.78,
+          "cpc": 59.6
+        },
+        {
+          "id": "120248845560560453",
+          "name": "SBM_SALES_LAL_AD-6",
+          "adsetId": "120248845560620453",
+          "campaignId": "120248845560530453",
+          "status": "PAUSED",
+          "creativeId": "1576473740700188",
+          "spend": 11618.01,
+          "leads": 4.0,
+          "costPerLead": 2904.5,
+          "purchaseValue": 12036.0,
+          "impressions": 17588,
+          "clicks": 252,
+          "ctr": 1.43,
+          "cpc": 46.1
+        },
+        {
+          "id": "120249027788970453",
+          "name": "SBM_SALES_PRO_AD-5",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2024339478957416",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249046970840453",
+          "name": "SBM_SALES_PRO_AD-12",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1686940045754349",
+          "spend": 8042.52,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 128239,
+          "clicks": 3695,
+          "ctr": 2.88,
+          "cpc": 2.18
+        },
+        {
+          "id": "120249029056380453",
+          "name": "SBM_SALES_PRO_AD-11",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1581983030119482",
+          "spend": 1448.86,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 24972,
+          "clicks": 499,
+          "ctr": 2.0,
+          "cpc": 2.9
+        },
+        {
+          "id": "120249021570550453",
+          "name": "SBM_SALES_PRO_AD-5",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "1610909524084299",
+          "spend": 34.8,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 249,
+          "clicks": 3,
+          "ctr": 1.2,
+          "cpc": 11.6
+        },
+        {
+          "id": "120249027788980453",
+          "name": "SBM_SALES_PRO_AD-4",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1712083210089632",
+          "spend": 833.56,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 6946,
+          "clicks": 53,
+          "ctr": 0.76,
+          "cpc": 15.73
+        },
+        {
+          "id": "120249021570540453",
+          "name": "SBM_SALES_PRO_AD-4",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "914537474373364",
+          "spend": 170.92,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 807,
+          "clicks": 8,
+          "ctr": 0.99,
+          "cpc": 21.37
+        },
+        {
+          "id": "120249027789010453",
+          "name": "SBM_SALES_PRO_AD-6",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "2109559239944843",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249027788960453",
+          "name": "SBM_SALES_PRO_AD-3",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1762793204901151",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249021570600453",
+          "name": "SBM_SALES_PRO_AD-9_(STATIC)",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "4474502036140671",
+          "spend": 55.57,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 586,
+          "clicks": 6,
+          "ctr": 1.02,
+          "cpc": 9.26
+        },
+        {
+          "id": "120249027788930453",
+          "name": "SBM_SALES_PRO_AD-9_(STATIC)",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1533502554345402",
+          "spend": 264.91,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 2693,
+          "clicks": 27,
+          "ctr": 1.0,
+          "cpc": 9.81
+        },
+        {
+          "id": "120249027789020453",
+          "name": "SBM_SALES_PRO_AD-10_(STATIC)",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "27745261665129198",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249021570500453",
+          "name": "SBM_SALES_PRO_AD-10_(STATIC)",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "1516337396382661",
+          "spend": 81.15,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 806,
+          "clicks": 12,
+          "ctr": 1.49,
+          "cpc": 6.76
+        },
+        {
+          "id": "120249021570520453",
+          "name": "SBM_SALES_PRO_AD-6",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "28318808917724250",
+          "spend": 314.31,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 1311,
+          "clicks": 33,
+          "ctr": 2.52,
+          "cpc": 9.52
+        },
+        {
+          "id": "120249021570560453",
+          "name": "SBM_SALES_PRO_AD-7",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "862911996682412",
+          "spend": 19.11,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 848,
+          "clicks": 3,
+          "ctr": 0.35,
+          "cpc": 6.37
+        },
+        {
+          "id": "120249027788990453",
+          "name": "SBM_SALES_PRO_AD-7",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1359624322269735",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249027788940453",
+          "name": "SBM_SALES_PRO_AD-8_(STATIC)",
+          "adsetId": "120249027789040453",
+          "campaignId": "120249027788820453",
+          "status": "PAUSED",
+          "creativeId": "1593075479166099",
+          "spend": 0,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": null,
+          "cpc": null
+        },
+        {
+          "id": "120249021570580453",
+          "name": "SBM_SALES_PRO_AD-8_(STATIC)",
+          "adsetId": "120249021570510453",
+          "campaignId": "120249020248270453",
+          "status": "PAUSED",
+          "creativeId": "1571616791044058",
+          "spend": 246.27,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 1561,
+          "clicks": 17,
+          "ctr": 1.09,
+          "cpc": 14.49
+        },
+        {
+          "id": "120248954475920453",
+          "name": "SBM_INST_LEAD_WEBINAR-6_AD-4 - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "PAUSED",
+          "creativeId": "1035884049228056",
+          "spend": 67.12,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 225,
+          "clicks": 2,
+          "ctr": 0.89,
+          "cpc": 33.56
+        },
+        {
+          "id": "120248959564260453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-2 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1027743506623454",
+          "spend": 243.13,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 704,
+          "clicks": 6,
+          "ctr": 0.85,
+          "cpc": 40.52
+        },
+        {
+          "id": "120248959564230453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-1 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "3086836281706518",
+          "spend": 662.19,
+          "leads": 3.0,
+          "costPerLead": 220.73,
+          "purchaseValue": 0,
+          "impressions": 1521,
+          "clicks": 29,
+          "ctr": 1.91,
+          "cpc": 22.83
+        },
+        {
+          "id": "120248954475910453",
+          "name": "SBM_INST_LEAD_WEBINAR-6_AD-3 - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "PAUSED",
+          "creativeId": "2134697277389320",
+          "spend": 2177.43,
+          "leads": 26.0,
+          "costPerLead": 83.75,
+          "purchaseValue": 0,
+          "impressions": 4894,
+          "clicks": 102,
+          "ctr": 2.08,
+          "cpc": 21.35
+        },
+        {
+          "id": "120248954475900453",
+          "name": "SBM_INST_LEAD_WEBINAR-6_AD-1 - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "PAUSED",
+          "creativeId": "2183370899183431",
+          "spend": 1086.07,
+          "leads": 19.0,
+          "costPerLead": 57.16,
+          "purchaseValue": 0,
+          "impressions": 1959,
+          "clicks": 53,
+          "ctr": 2.71,
+          "cpc": 20.49
+        },
+        {
+          "id": "120248959564250453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-3 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1765086254681486",
+          "spend": 26.97,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 27,
+          "clicks": 2,
+          "ctr": 7.41,
+          "cpc": 13.49
+        },
+        {
+          "id": "120248959564240453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-4 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "4349210652009536",
+          "spend": 1043.56,
+          "leads": 10.0,
+          "costPerLead": 104.36,
+          "purchaseValue": 10620.0,
+          "impressions": 1829,
+          "clicks": 79,
+          "ctr": 4.32,
+          "cpc": 13.21
+        },
+        {
+          "id": "120248511761080453",
+          "name": "SBM_WEB_LEAD_WEBINAR-5_AD-3 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "991226770580171",
+          "spend": 7.68,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 13,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120248511761070453",
+          "name": "SBM_WEB_LEAD_WEBINAR-5_AD-2 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "2096881051253372",
+          "spend": 14.79,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 24,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120248499796620453",
+          "name": "SBM_WEB_LEAD_WEBINAR-5_AD-1 - Copy",
+          "adsetId": "120247313529700453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1172130622654330",
+          "spend": 157.25,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 185,
+          "clicks": 2,
+          "ctr": 1.08,
+          "cpc": 78.63
+        },
+        {
+          "id": "120248954475930453",
+          "name": "SBM_INST_LEAD_WEBINAR-6_AD-2(STATIC) - Copy",
+          "adsetId": "120247669107320453",
+          "campaignId": "120247667868660453",
+          "status": "PAUSED",
+          "creativeId": "1521156790025273",
+          "spend": 81.94,
+          "leads": 0,
+          "costPerLead": null,
+          "purchaseValue": 0,
+          "impressions": 193,
+          "clicks": 0,
+          "ctr": 0.0,
+          "cpc": null
+        },
+        {
+          "id": "120248959564470453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-2 - Copy",
+          "adsetId": "120247313549660453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1538263324425549",
+          "spend": 23368.2,
+          "leads": 135.0,
+          "costPerLead": 173.1,
+          "purchaseValue": 0,
+          "impressions": 57410,
+          "clicks": 1097,
+          "ctr": 1.91,
+          "cpc": 21.3
+        },
+        {
+          "id": "120248959564460453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-3 - Copy",
+          "adsetId": "120247313549660453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1031198566168614",
+          "spend": 3469.93,
+          "leads": 19.0,
+          "costPerLead": 182.63,
+          "purchaseValue": 0,
+          "impressions": 5588,
+          "clicks": 139,
+          "ctr": 2.49,
+          "cpc": 24.96
+        },
+        {
+          "id": "120248959564450453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-4 - Copy",
+          "adsetId": "120247313549660453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1354060896216224",
+          "spend": 10146.7,
+          "leads": 103.0,
+          "costPerLead": 98.51,
+          "purchaseValue": 0,
+          "impressions": 20153,
+          "clicks": 1871,
+          "ctr": 9.28,
+          "cpc": 5.42
+        },
+        {
+          "id": "120248959564180453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-2 - Copy",
+          "adsetId": "120247307651890453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "27488031300868136",
+          "spend": 2251.44,
+          "leads": 7.0,
+          "costPerLead": 321.63,
+          "purchaseValue": 0,
+          "impressions": 5474,
+          "clicks": 121,
+          "ctr": 2.21,
+          "cpc": 18.61
+        },
+        {
+          "id": "120248959564170453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-1 - Copy",
+          "adsetId": "120247307651890453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "2127768071137984",
+          "spend": 5772.44,
+          "leads": 41.0,
+          "costPerLead": 140.79,
+          "purchaseValue": 0,
+          "impressions": 10621,
+          "clicks": 281,
+          "ctr": 2.65,
+          "cpc": 20.54
+        },
+        {
+          "id": "120248959564160453",
+          "name": "SBM_WEB_LEAD_WEBINAR-6_AD-3 - Copy",
+          "adsetId": "120247307651890453",
+          "campaignId": "120247307651910453",
+          "status": "PAUSED",
+          "creativeId": "1340460654866819",
+          "spend": 1015.55,
+          "leads": 4.0,
+          "costPerLead": 253.89,
+          "purchaseValue": 0,
+          "impressions": 1790,
+          "clicks": 43,
+          "ctr": 2.4,
+          "cpc": 23.62
+        }
+      ],
+      "ageBreakdown": [
+        {
+          "age": "18-24",
+          "spend": 97466.47,
+          "impressions": 167184,
+          "reach": 83119,
+          "clicks": 18636,
+          "leads": 1595,
+          "initiatedCheckouts": 3058,
+          "purchaseValue": 0
+        },
+        {
+          "age": "25-34",
+          "spend": 197018.1,
+          "impressions": 955689,
+          "reach": 522927,
+          "clicks": 25408,
+          "leads": 554,
+          "initiatedCheckouts": 1045,
+          "purchaseValue": 119842.1
+        },
+        {
+          "age": "35-44",
+          "spend": 308677.23,
+          "impressions": 743240,
+          "reach": 303143,
+          "clicks": 15036,
+          "leads": 494,
+          "initiatedCheckouts": 543,
+          "purchaseValue": 479797.48
+        },
+        {
+          "age": "45-54",
+          "spend": 236287.82,
+          "impressions": 451062,
+          "reach": 175487,
+          "clicks": 9170,
+          "leads": 476,
+          "initiatedCheckouts": 315,
+          "purchaseValue": 249311.28
+        },
+        {
+          "age": "55-64",
+          "spend": 80541.14,
+          "impressions": 217201,
+          "reach": 99390,
+          "clicks": 5856,
+          "leads": 405,
+          "initiatedCheckouts": 194,
+          "purchaseValue": 199481.34
+        },
+        {
+          "age": "65+",
+          "spend": 28998.32,
+          "impressions": 121038,
+          "reach": 57653,
+          "clicks": 3859,
+          "leads": 162,
+          "initiatedCheckouts": 102,
+          "purchaseValue": 4602.0
+        },
+        {
+          "age": "Unknown",
+          "spend": 33.56,
+          "impressions": 82,
+          "reach": 76,
+          "clicks": 1,
+          "leads": 7,
+          "initiatedCheckouts": 0,
+          "purchaseValue": 0
+        }
+      ],
+      "genderBreakdown": [
+        {
+          "gender": "female",
+          "spend": 607535.76,
+          "impressions": 1180402,
+          "reach": 433212,
+          "clicks": 30085,
+          "leads": 1938,
+          "initiatedCheckouts": 2394,
+          "purchaseValue": 834036.4
+        },
+        {
+          "gender": "male",
+          "spend": 216392.61,
+          "impressions": 1462987,
+          "reach": 772885,
+          "clicks": 47421,
+          "leads": 1720,
+          "initiatedCheckouts": 2823,
+          "purchaseValue": 143482.1
+        },
+        {
+          "gender": "unknown",
+          "spend": 5375.11,
+          "impressions": 12107,
+          "reach": 4924,
+          "clicks": 460,
+          "leads": 35,
+          "initiatedCheckouts": 40,
+          "purchaseValue": 0
+        }
+      ],
+      "placements": [
+        {
+          "platform_position": "an_classic",
+          "spend": 62061.91,
+          "impressions": 235232,
+          "reach": 117419,
+          "clicks": 28899
+        },
+        {
+          "platform_position": "facebook_notification",
+          "spend": 241.94,
+          "impressions": 1042,
+          "reach": 678,
+          "clicks": 27
+        },
+        {
+          "platform_position": "facebook_profile_feed",
+          "spend": 394.62,
+          "impressions": 3634,
+          "reach": 3322,
+          "clicks": 66
+        },
+        {
+          "platform_position": "facebook_reels",
+          "spend": 61547.44,
+          "impressions": 562834,
+          "reach": 313709,
+          "clicks": 20968
+        },
+        {
+          "platform_position": "facebook_reels_overlay",
+          "spend": 1391.27,
+          "impressions": 47920,
+          "reach": 27768,
+          "clicks": 287
+        },
+        {
+          "platform_position": "facebook_stories",
+          "spend": 8069.88,
+          "impressions": 23806,
+          "reach": 18405,
+          "clicks": 504
+        },
+        {
+          "platform_position": "feed",
+          "spend": 403071.78,
+          "impressions": 687017,
+          "reach": 305668,
+          "clicks": 13321
+        },
+        {
+          "platform_position": "instagram_explore_grid_home",
+          "spend": 794.07,
+          "impressions": 58100,
+          "reach": 52885,
+          "clicks": 21
+        },
+        {
+          "platform_position": "instagram_reels",
+          "spend": 174623.71,
+          "impressions": 789061,
+          "reach": 432793,
+          "clicks": 5777
+        },
+        {
+          "platform_position": "instagram_search",
+          "spend": 80.0,
+          "impressions": 5806,
+          "reach": 5596,
+          "clicks": 15
+        },
+        {
+          "platform_position": "instagram_stories",
+          "spend": 108780.65,
+          "impressions": 125663,
+          "reach": 50676,
+          "clicks": 1661
+        },
+        {
+          "platform_position": "instream_video",
+          "spend": 7076.89,
+          "impressions": 79343,
+          "reach": 49618,
+          "clicks": 2966
+        },
+        {
+          "platform_position": "marketplace",
+          "spend": 206.17,
+          "impressions": 15706,
+          "reach": 11814,
+          "clicks": 18
+        },
+        {
+          "platform_position": "messenger_stories",
+          "spend": 2.48,
+          "impressions": 1071,
+          "reach": 1071,
+          "clicks": 6
+        },
+        {
+          "platform_position": "rewarded_video",
+          "spend": 1422.9,
+          "impressions": 15879,
+          "reach": 10243,
+          "clicks": 3357
+        },
+        {
+          "platform_position": "right_hand_column",
+          "spend": 124.03,
+          "impressions": 2365,
+          "reach": 561,
+          "clicks": 4
+        },
+        {
+          "platform_position": "search",
+          "spend": 109.7,
+          "impressions": 773,
+          "reach": 646,
+          "clicks": 8
+        },
+        {
+          "platform_position": "threads_feed",
+          "spend": 28.63,
+          "impressions": 244,
+          "reach": 244,
+          "clicks": 2
+        },
+        {
+          "platform_position": "unknown",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 59
+        }
+      ],
+      "devices": [
+        {
+          "device_platform": "desktop",
+          "spend": 4761.5,
+          "impressions": 9468,
+          "reach": 4577,
+          "clicks": 88
+        },
+        {
+          "device_platform": "mobile_app",
+          "spend": 814231.03,
+          "impressions": 2618522,
+          "reach": 1196473,
+          "clicks": 77495
+        },
+        {
+          "device_platform": "mobile_web",
+          "spend": 10125.95,
+          "impressions": 27506,
+          "reach": 16779,
+          "clicks": 324
+        },
+        {
+          "device_platform": "unknown",
+          "spend": 0,
+          "impressions": 0,
+          "reach": 0,
+          "clicks": 59
+        }
+      ]
+    }
+  }
+}
