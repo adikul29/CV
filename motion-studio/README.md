@@ -5,9 +5,11 @@ a deterministic `seek(t)` page → headless Chromium frame capture → ffmpeg, w
 a beat-locked synthesized score, and a contact-sheet critique loop.
 
 ```
-engine/render.mjs        renderer (frames → MP4 + score mux + contact sheet, or --stills)
+engine/render.mjs        renderer: parallel workers → MP4, score normalised to -14 LUFS, contact sheet, or --stills
 lib/motion.js            spring(), track(), presets, beat grid, colour mix, deterministic grain
-lib/synth.mjs            kick/hat/clap/bass/pad/riser/impact/whoosh/blip/bell → WAV
+lib/synth.mjs            kick/hat/clap/bass/pad/riser/impact/whoosh/blip/bell → WAV (simple)
+lib/music.mjs            production engine: band-limited oscillators, biquads, buses, sidechain,
+                         Freeverb + ping-pong delay, UI foley (tick/pop/key/click/whoosh)
 scenes/demo-reel/        8 s, 120 BPM reference reel (index.html + score.mjs)
 templates/               director's brief + one-shape state-list spec
 CLAUDE.md                house rules applied to every video
