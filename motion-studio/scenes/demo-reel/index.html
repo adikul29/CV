@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>html,body{margin:0;background:#0b0b0f;overflow:hidden}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import { spring, track, P, clamp, lerp, progress, easeOutExpo, grid, mixHex, drawGrain } from '../../lib/motion.js';
+
+// ── Setup ───────────────────────────────────────────────────────────────
+const q = new URLSearchParams(location.search);
+const W = +q.get('w') || 1920, H = +q.get('h') || 1080, FPS = +q.get('fps') || 60;
+const cv = document.getElementById('c'); cv.width = W; cv.height = H;
+const g = cv.getContext('2d');
+const BPM = 120, { B, beat, punch } = grid(BPM);   // B = 0.5 s
+window.SCENE = { duration: 8, bpm: BPM };
+
+// Layout unit: scenes are written against U, never raw pixels, so 16:9, 1:1 and 9:16 all reframe.
+const U = Math.min(W, H) / 1080, cx = W / 2, cy = H / 2, portrait = H > W;
+const C = { bg: '#0b0b0f', ink: '#f4f1ea', acc: '#ff5a36', blue: '#3d6bff', mute: '#34343f' };
+const FONT = (px, w = 800) => `${w} ${px}px "Liberation Sans", "DejaVu Sans", sans-serif`;
+
+function rrect(x, y, w, h, r) { r = Math.min(r, w / 2, h / 2); g.beginPath(); g.roundRect(x, y, w, h, Math.max(0, r)); }
+function text(str, x, y, px, color, { align = 'center', weight = 800, alpha = 1, track: ls = 0 } = {}) {
+  g.save(); g.globalAlpha *= alpha; g.fillStyle = color; g.font = FONT(px, weight);
+  g.textAlign = align; g.textBaseline = 'middle'; g.letterSpacing = `${ls}px`; g.fillText(str, x, y); g.restore();
+}
+
+// ── Shot 1 · 0–2 s · dot → pill → "MOTION" → wipe ────────────────────────
+function shot1(t) {
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const pw = track(t, 0, [[0, 40 * U], [beat(1), 560 * U], [1.55, Math.hypot(W, H) * 1.1]], P.snappy);
+  const ph = track(t, 0, [[0, 40 * U], [beat(1), 150 * U], [1.55, Math.hypot(W, H) * 1.1]], P.snappy);
+  const pr = track(t, 0, [[0, 20 * U], [beat(1), 75 * U], [1.55, 0]], P.default);
+  g.fillStyle = mixHex(C.ink, C.acc, spring(t - beat(3) + 0.1, P.default));
+  rrect(cx - pw / 2, cy - ph / 2, pw, ph, pr); g.fill();
+  // Letters rise inside the pill, clipped to it, staggered 50 ms.
+  g.save(); rrect(cx - pw / 2, cy - ph / 2, pw, ph, pr); g.clip();
+  const word = 'MOTION', px = 96 * U; g.font = FONT(px); g.letterSpacing = `${6 * U}px`;
+  let x = cx - g.measureText(word).width / 2;
+  for (let i = 0; i < word.length; i++) {
+    const s = spring(t - beat(2) - i * 0.05, P.snappy) - spring(t - 1.45 - i * 0.02, P.snappy);
+    text(word[i], x, cy + (1 - clamp(s, -0.2, 1.2)) * 140 * U, px, C.bg, { align: 'left' });
+    x += g.measureText(word[i]).width + 6 * U;
+  }
+  g.restore();
+}
+
+// ── Shot 2 · 2–4 s · kinetic type on beats 4, 5, 6 ──────────────────────
+function shot2(t) {
+  g.fillStyle = C.acc; g.fillRect(0, 0, W, H);
+  const words = ['PIXELS.', 'SPRINGS.', 'SOUND.'];
+  const px = (portrait ? 150 : 200) * U, lh = px * 1.02;
+  // Stack recentres as each word lands, so the frame is never top-heavy.
+  const lift = track(t, 0, [[beat(5), -lh / 2], [beat(6), -lh], [3.5, -lh - H * 1.2]], P.default);
+  words.forEach((w, i) => {
+    const at = beat(4 + i), s = spring(t - at, P.heavy);
+    if (t < at) return;
+    const dim = spring(t - beat(5 + i), P.default) * (i < 2 ? 1 : 0);
+    const y = cy + i * lh + lift + (1 - s) * 60 * U;
+    const scale = lerp(1.25, 1, s);
+    g.save(); g.translate(cx, y); g.scale(scale, scale);
+    text(w, 0, 0, px, C.bg, { alpha: clamp(s * 1.5) * (1 - dim * 0.72), track: -4 * U });
+    g.restore();
+  });
+  // Dark panel rises from below to hand off to shot 3.
+  const rise = track(t, 0, [[3.55, H]], P.snappy);
+  g.fillStyle = C.bg; g.fillRect(0, H - rise, W, rise + 1);
+}
+
+// ── Shot 3 · 4–6 s · squares pop on the beat, grow into a chart ─────────
+const DATA = [0.32, 0.48, 0.41, 0.63, 0.57, 0.78, 0.7, 1.0];
+function bars(t) {
+  const n = DATA.length, gap = 22 * U, bw = Math.min(90 * U, (W * 0.8 - gap * (n - 1)) / n);
+  const total = n * bw + (n - 1) * gap, x0 = cx - total / 2, base = cy + 230 * U, maxH = 440 * U;
+  return DATA.map((d, i) => ({ i, d, x: x0 + i * (bw + gap), bw, base, maxH }));
+}
+function shot3(t) {
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const bs = bars(t), last = bs[bs.length - 1];
+  // Axis draws on beat 11.
+  const ax = easeOutExpo(progress(t, beat(11), beat(11) + 0.5));
+  g.fillStyle = C.mute; g.fillRect(bs[0].x - 20 * U, last.base + 14 * U, (last.x + last.bw - bs[0].x + 40 * U) * ax, 3 * U);
+  for (const b of bs) {
+    const pop = spring(t - 4.0 - b.i * 0.06, P.playful);
+    const grow = spring(t - beat(10) - b.i * 0.04, P.default);
+    const h = lerp(b.bw, b.d * b.maxH, grow) * clamp(pop, 0, 1.12);
+    const w = b.bw * clamp(pop, 0, 1.12);
+    g.fillStyle = b.i === DATA.length - 1 ? C.acc : mixHex(C.ink, C.mute, grow * 0.6);
+    rrect(b.x + (b.bw - w) / 2, b.base - h, w, h, 10 * U); g.fill();
+  }
+  // Counter tracks the hero bar.
+  const cnt = easeOutExpo(progress(t, beat(10), beat(10) + 0.7));
+  if (t > beat(10)) {
+    text(`+${Math.round(212 * cnt)}%`, last.x + last.bw / 2, last.base - last.maxH * spring(t - beat(10) - 0.28, P.default) - 60 * U, 64 * U, C.acc, { alpha: clamp(cnt * 3) });
+    text('GROWTH, ANIMATED', bs[0].x - 20 * U, cy - 300 * U, 30 * U, C.ink, { align: 'left', weight: 700, track: 6 * U, alpha: clamp(cnt * 2) });
+  }
+}
+
+// ── Shot 4 · 6–8 s · bars collapse into one ring → lockup ───────────────
+function shot4(t) {
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  const bs = bars(t), merge = spring(t - 6.25, P.default), ring = spring(t - beat(13), P.heavy);
+  const ry = cy - (portrait ? 120 : 70) * U;
+  if (ring < 0.02) {
+    for (const b of bs) {
+      const shrink = spring(t - 6.0 - (7 - b.i) * 0.03, P.snappy);
+      const h = lerp(b.d * b.maxH, b.bw * 0.5, shrink), w = lerp(b.bw, b.bw * 0.5, shrink);
+      const x = lerp(b.x + b.bw / 2, cx, merge), y = lerp(b.base - h / 2, ry, merge);
+      g.fillStyle = b.i === 7 ? C.acc : mixHex(C.mute, C.acc, merge);
+      rrect(x - w / 2, y - h / 2, w, h, lerp(10 * U, w / 2, shrink)); g.fill();
+    }
+  }
+  if (t > beat(13)) {
+    const r = lerp(30 * U, 120 * U, ring), lw = lerp(r, 18 * U, spring(t - beat(13) - 0.1, P.default));
+    g.strokeStyle = C.acc; g.lineWidth = lw;
+    g.beginPath(); g.arc(cx, ry, Math.max(0.1, r - lw / 2), -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * clamp(ring, 0, 1)); g.stroke();
+    // Orbiting dot, one revolution per two beats.
+    const a = -Math.PI / 2 + (t - beat(13)) * Math.PI;
+    g.fillStyle = C.ink; g.beginPath(); g.arc(cx + Math.cos(a) * r * 1.32, ry + Math.sin(a) * r * 1.32, 9 * U, 0, Math.PI * 2); g.fill();
+  }
+  // Lockup letters, staggered from beat 14.
+  const word = 'STUDIO READY', px = 84 * U; g.font = FONT(px); g.letterSpacing = `${4 * U}px`;
+  let x = cx - g.measureText(word).width / 2;
+  const ty = ry + (portrait ? 290 : 250) * U;
+  for (let i = 0; i < word.length; i++) {
+    const s = spring(t - beat(14) - i * 0.025, P.heavy);
+    if (s > 0) text(word[i], x, ty + (1 - s) * 50 * U, px, C.ink, { align: 'left', alpha: clamp(s * 1.4) });
+    x += g.measureText(word[i]).width + 4 * U;
+  }
+  const cap = spring(t - beat(15) + 0.25, P.heavy);
+  text('seek(t) · closed-form springs · 120 BPM', cx, ty + 90 * U, 28 * U, C.ink, { weight: 400, alpha: cap * 0.6, track: 3 * U });
+}
+
+// ── seek(t): the one entry point the renderer calls ─────────────────────
+window.seek = (t) => {
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  // Camera: slow push + a small punch on every beat after the drop.
+  const z = 1 + 0.025 * (t / 8) + (t >= 2 ? 0.012 * punch(t, 9) : 0);
+  g.translate(cx, cy); g.scale(z, z); g.translate(-cx, -cy);
+  if (t < 2) shot1(t); else if (t < 4) shot2(t); else if (t < 6) shot3(t); else shot4(t);
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  drawGrain(g, t, FPS, W, H, 0.07);
+};
+
+await document.fonts.load(FONT(100));
+window.seek(0);
+window.__ready = true;
+</script>
+</body>
+</html>

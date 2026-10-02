@@ -1,0 +1,10 @@
+{
+  "name": "motion-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node engine/render.mjs scenes/demo-reel --w 1280 --h 720 --fps 30 --tag preview",
+    "render": "node engine/render.mjs scenes/demo-reel"
+  },
+  "devDependencies": { "playwright": "^1.56.0" }
+}
