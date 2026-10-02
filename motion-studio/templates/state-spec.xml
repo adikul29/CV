@@ -1,0 +1,15 @@
+<!-- One-shape UI morph spec: write the state list, not the vibe. -->
+<film>
+  <inputs ask="true">product name, URL, 4–6 features, brand colors</inputs>
+  <direction>One shape, never cut. A cursor drives every change with real clicks. Last frame equals first (loops).</direction>
+  <states bpm="120">
+    <state at="0.0"  shape="button"   w="280" h="72"  r="36" color="ink">Get started</state>
+    <state at="2.0"  shape="loader"   w="72"  h="72"  r="36" color="accent"/>
+    <state at="4.0"  shape="player"   w="640" h="360" r="24" color="surface"/>
+    <state at="7.0"  shape="chart"    w="640" h="360" r="24" color="surface"/>
+    <state at="10.0" shape="palette"  w="560" h="420" r="18" color="surface"/>
+    <state at="13.0" shape="button"   w="280" h="72"  r="36" color="ink">Get started</state>
+  </states>
+  <rules>Closed-form springs only; every size/radius/color uses track(); cuts on beats; type uses heavy preset.</rules>
+  <gotchas>Text must not reflow mid-morph; clip children to the shape; cursor arrives 1 beat before each click.</gotchas>
+</film>
