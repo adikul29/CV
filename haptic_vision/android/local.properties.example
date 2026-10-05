@@ -1,0 +1,6 @@
+# Copy to local.properties (gitignored) and set your key. It is read at build
+# time and baked into BuildConfig.VISION_API_KEY.
+#
+# sdk.dir and flutter.sdk are written here automatically by the Flutter tool on
+# the first `flutter run` / `flutter build` — you do not need to add them.
+visionApiKey=YOUR_API_KEY_HERE

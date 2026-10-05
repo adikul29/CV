@@ -1,0 +1,17 @@
+name: haptic_vision
+description: A floating button that screenshots the screen, asks a vision model about it, and answers in vibrations.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
